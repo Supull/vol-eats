@@ -6,7 +6,8 @@ import { z } from "zod";
 import { Field, Input, Select, a11y } from "@/components/ui/field";
 import { findMealPlan, MEAL_PLANS } from "@/lib/meal-plans";
 import type { OnboardingDraft } from "@/lib/onboarding-draft";
-import { StepShell, toNumber } from "./step-shell";
+import { toNumber } from "@/lib/utils";
+import { StepShell } from "./step-shell";
 
 const money = z.preprocess(toNumber, z.number().min(0, "Can't be negative").max(10000, "That seems too high").optional());
 

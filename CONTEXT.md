@@ -49,3 +49,20 @@ All the changes done by the AI is entered in here.
   - Logging a plate showed one item three times on Today: the optimistic placeholders had the same temporary ID. They now use `crypto.randomUUID()`.
   - The page was 497px wide on phones because a `<fieldset>` defaults to `min-width: min-content`. Added `min-w-0` to the chip fieldsets.
 - Tests: 36 passing.
+
+## 2026-11-14 — Frontend phase 5: Photo log, Events, Budget (Claude Code, for Swagat)
+
+- `/log` has two tabs:
+  - **Photo:** "Snap your plate" opens the camera (`capture="environment"`). "Choose from library" uses a separate input without `capture`, because `capture` forces the camera on phones. Photos are downscaled to 1024px JPEG in the browser (`lib/image.ts`), then sent to `POST /api/ai/photo`. The user sees a preview with "Analyzing…", then an editable estimate with a confidence pill and notes. Save logs with `source: "photo"`.
+  - **Quick add:** the same form (`components/log/food-form.tsx`), saved with `source: "manual"`.
+  - If the photo AI fails or takes over 5 s, the form opens blank with "Couldn't analyze this photo". Unlike the other AI screens there's no canned estimate here, because a made-up calorie count would be wrong data.
+- `/events`: today's events with time, place, food, estimated calories and a fit badge. Ended events are under "Earlier today". The poster is never shown.
+- `/budget` (`lib/budget.ts`, pure and tested):
+  - Semester end date (default Dec 12) → weeks left.
+  - Swipes: "Unlimited" for unlimited plans; swipes left and swipes per week for Block plans; a weekly count for Weekly plans.
+  - Dining dollars: balance, $/week until the semester ends, and a "spent this week" input that predicts the run-out date and warns if it's before the semester ends.
+  - Top 5 retail items by protein per dollar, filtered by diet. Hidden for swipe-only plans.
+  - A "Grocery list: Coming soon" card for the pitch.
+  - The semester end and "spent this week" are saved in localStorage as per-person settings.
+- `TODO(schema)`: retail `price_usd` values are still placeholders, and the page says "Prices are estimates".
+- Tests: 41 passing.

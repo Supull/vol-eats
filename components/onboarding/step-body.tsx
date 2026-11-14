@@ -12,7 +12,8 @@ import { ftInToCm, kgToLb, lbToKg, minHealthyWeightKg } from "@/lib/units";
 import type { OnboardingDraft, UnitSystem } from "@/lib/onboarding-draft";
 import type { ActivityLevel, GoalType, Sex } from "@/lib/types";
 import { cn } from "@/lib/utils";
-import { StepShell, toNumber } from "./step-shell";
+import { toNumber } from "@/lib/utils";
+import { StepShell } from "./step-shell";
 
 const num = z.preprocess(toNumber, z.number().optional());
 
