@@ -1,0 +1,1241 @@
+[
+  {
+    "id": "loc-rockytop-72792-breakfast",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Grill",
+    "name": "Scrambled Eggs",
+    "serving_size": "1/2 cup",
+    "calories": 130,
+    "protein_g": 12,
+    "carbs_g": 1,
+    "fat_g": 9,
+    "tags": [
+      "vegetarian",
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": [
+      "eggs"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72794-breakfast",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "True Balance",
+    "name": "Scrambled Just® Egg",
+    "serving_size": "1/2 cup",
+    "calories": 200,
+    "protein_g": 13,
+    "carbs_g": 2,
+    "fat_g": 16,
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-rockytop-72800-breakfast",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Omelet",
+    "name": "Just® Scrambled Eggs",
+    "serving_size": "1/2 cup",
+    "calories": 140,
+    "protein_g": 12,
+    "carbs_g": 2,
+    "fat_g": 10,
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-rockytop-72799-breakfast",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Waffle Bar",
+    "name": "Belgian Waffle",
+    "serving_size": "each",
+    "calories": 260,
+    "protein_g": 5,
+    "carbs_g": 52,
+    "fat_g": 3,
+    "tags": [],
+    "allergens": [
+      "milk",
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72657-breakfast",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Produce Market",
+    "name": "Overnight Oats",
+    "serving_size": "4 fl oz",
+    "calories": 180,
+    "protein_g": 8,
+    "carbs_g": 25,
+    "fat_g": 6,
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": [
+      "milk",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72648-breakfast",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Bakery",
+    "name": "Strawberry Oatmeal Bar",
+    "serving_size": "1/64 cut",
+    "calories": 330,
+    "protein_g": 4,
+    "carbs_g": 50,
+    "fat_g": 13,
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": [
+      "milk",
+      "eggs",
+      "wheat",
+      "gluten",
+      "soy"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72793-breakfast",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Grill",
+    "name": "Pork Sausage Links",
+    "serving_size": "2 link",
+    "calories": 230,
+    "protein_g": 8,
+    "carbs_g": 1,
+    "fat_g": 22,
+    "tags": [
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-rockytop-72795-breakfast",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "True Balance",
+    "name": "Turkey Sausage Link",
+    "serving_size": "2 link",
+    "calories": 100,
+    "protein_g": 9,
+    "carbs_g": 1,
+    "fat_g": 7,
+    "tags": [
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-rockytop-72895-breakfast",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Omelet",
+    "name": "Eggs",
+    "serving_size": "1/4 cup",
+    "calories": 80,
+    "protein_g": 7,
+    "carbs_g": 0,
+    "fat_g": 6,
+    "tags": [
+      "vegetarian",
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": [
+      "eggs"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72710-breakfast",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Waffle Bar",
+    "name": "Chocolate Chips",
+    "serving_size": "1 tablespoon",
+    "calories": 50,
+    "protein_g": 1,
+    "carbs_g": 7,
+    "fat_g": 3,
+    "tags": [],
+    "allergens": [
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72887-breakfast",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Produce Market",
+    "name": "Cottage Cheese",
+    "serving_size": "1/4 cup",
+    "calories": 45,
+    "protein_g": 7,
+    "carbs_g": 3,
+    "fat_g": 1,
+    "tags": [],
+    "allergens": []
+  },
+  {
+    "id": "loc-rockytop-72820-lunch",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Entree",
+    "name": "Crispy Battered Cod",
+    "serving_size": "each",
+    "calories": 120,
+    "protein_g": 8,
+    "carbs_g": 8,
+    "fat_g": 6,
+    "tags": [],
+    "allergens": [
+      "milk",
+      "fish",
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72809-lunch",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Grill",
+    "name": "Boneless Crispy Chicken Wings",
+    "serving_size": "6 each",
+    "calories": 540,
+    "protein_g": 31,
+    "carbs_g": 25,
+    "fat_g": 36,
+    "tags": [],
+    "allergens": []
+  },
+  {
+    "id": "loc-rockytop-103083-lunch",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "True Balance",
+    "name": "Grilled Chicken",
+    "serving_size": "3 ozw",
+    "calories": 120,
+    "protein_g": 17,
+    "carbs_g": 0,
+    "fat_g": 5,
+    "tags": [
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-rockytop-72769-lunch",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Tex Mex",
+    "name": "Chicken Tinga",
+    "serving_size": "3 ozw",
+    "calories": 130,
+    "protein_g": 14,
+    "carbs_g": 6,
+    "fat_g": 5,
+    "tags": [
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-rockytop-72844-lunch",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Omelet",
+    "name": "Just® Scrambled Eggs",
+    "serving_size": "1/2 cup",
+    "calories": 140,
+    "protein_g": 12,
+    "carbs_g": 2,
+    "fat_g": 10,
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-rockytop-72819-lunch",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Vegan",
+    "name": "Spicy Plant-Based Chicken Tenders",
+    "serving_size": "3 each",
+    "calories": 400,
+    "protein_g": 33,
+    "carbs_g": 40,
+    "fat_g": 14,
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "dairy_free"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "soy"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72645-lunch",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Oven",
+    "name": "Buffalo Chicken Pizza",
+    "serving_size": "1 cut",
+    "calories": 270,
+    "protein_g": 16,
+    "carbs_g": 33,
+    "fat_g": 9,
+    "tags": [],
+    "allergens": [
+      "milk",
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72830-lunch",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Soup",
+    "name": "Broccoli  Cheddar Soup",
+    "serving_size": "6 fl oz",
+    "calories": 190,
+    "protein_g": 7,
+    "carbs_g": 11,
+    "fat_g": 13,
+    "tags": [
+      "gluten_free"
+    ],
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72835-lunch",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Pasta Build Your Own",
+    "name": "Pulled Pork Mac & Cheese",
+    "serving_size": "1 serving",
+    "calories": 610,
+    "protein_g": 41,
+    "carbs_g": 44,
+    "fat_g": 29,
+    "tags": [],
+    "allergens": [
+      "milk",
+      "eggs",
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72843-lunch",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Waffle Bar",
+    "name": "Belgian Waffle",
+    "serving_size": "each",
+    "calories": 260,
+    "protein_g": 5,
+    "carbs_g": 52,
+    "fat_g": 3,
+    "tags": [],
+    "allergens": [
+      "milk",
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72763-lunch",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Produce Market",
+    "name": "Cranberry Chicken Salad",
+    "serving_size": "3/4 ozw",
+    "calories": 330,
+    "protein_g": 16,
+    "carbs_g": 20,
+    "fat_g": 21,
+    "tags": [],
+    "allergens": [
+      "milk",
+      "eggs",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72866-dinner",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Entree",
+    "name": "Blackened Catfish",
+    "serving_size": "each",
+    "calories": 200,
+    "protein_g": 17,
+    "carbs_g": 3,
+    "fat_g": 13,
+    "tags": [],
+    "allergens": [
+      "milk",
+      "fish",
+      "soy"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72852-dinner",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Grill",
+    "name": "BBQ Cheddar Turkey Panini",
+    "serving_size": "1 sandwich",
+    "calories": 550,
+    "protein_g": 27,
+    "carbs_g": 68,
+    "fat_g": 20,
+    "tags": [],
+    "allergens": [
+      "milk",
+      "wheat",
+      "soy"
+    ]
+  },
+  {
+    "id": "loc-rockytop-102534-dinner",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "True Balance",
+    "name": "Grilled Ancho-Lime Chicken",
+    "serving_size": "3 ozw",
+    "calories": 110,
+    "protein_g": 16,
+    "carbs_g": 0,
+    "fat_g": 5,
+    "tags": [
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-rockytop-72878-dinner",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Tex Mex",
+    "name": "Mozole Pork ",
+    "serving_size": "1/2 cup",
+    "calories": 220,
+    "protein_g": 17,
+    "carbs_g": 8,
+    "fat_g": 14,
+    "tags": [],
+    "allergens": []
+  },
+  {
+    "id": "loc-rockytop-72886-dinner",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Omelet",
+    "name": "Just® Scrambled Eggs",
+    "serving_size": "1/2 cup",
+    "calories": 140,
+    "protein_g": 12,
+    "carbs_g": 2,
+    "fat_g": 10,
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-rockytop-72635-dinner",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Pasta",
+    "name": "Cheesy Baked Penne",
+    "serving_size": "1 serving",
+    "calories": 400,
+    "protein_g": 19,
+    "carbs_g": 59,
+    "fat_g": 12,
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": [
+      "milk",
+      "eggs",
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72864-dinner",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Vegan",
+    "name": "Meatless Chick'n Stirfry",
+    "serving_size": "1/2 cup",
+    "calories": 190,
+    "protein_g": 20,
+    "carbs_g": 3,
+    "fat_g": 11,
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "dairy_free"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "soy"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72649-dinner",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Oven",
+    "name": "Red Pepper & Mushroom Pesto Pizza",
+    "serving_size": "1/8 cut",
+    "calories": 390,
+    "protein_g": 19,
+    "carbs_g": 46,
+    "fat_g": 15,
+    "tags": [],
+    "allergens": [
+      "milk",
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72873-dinner",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Soup",
+    "name": "Southwest Black Bean Soup",
+    "serving_size": "6 fl oz",
+    "calories": 160,
+    "protein_g": 7,
+    "carbs_g": 32,
+    "fat_g": 1,
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-rockytop-72885-dinner",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Waffle Bar",
+    "name": "Belgian Waffle",
+    "serving_size": "each",
+    "calories": 260,
+    "protein_g": 5,
+    "carbs_g": 52,
+    "fat_g": 3,
+    "tags": [],
+    "allergens": [
+      "milk",
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-rockytop-72787-dinner",
+    "location_id": "loc-rockytop",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Produce Market",
+    "name": "Cranberry Chicken Salad",
+    "serving_size": "3/4 ozw",
+    "calories": 330,
+    "protein_g": 16,
+    "carbs_g": 20,
+    "fat_g": 21,
+    "tags": [],
+    "allergens": [
+      "milk",
+      "eggs",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-stokely-71639-breakfast",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Omelet",
+    "name": "Just® Scrambled Eggs",
+    "serving_size": "1/2 cup",
+    "calories": 140,
+    "protein_g": 12,
+    "carbs_g": 2,
+    "fat_g": 10,
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71739-breakfast",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Soup",
+    "name": "Shredded Cheddar & Monterey Jack",
+    "serving_size": "1/4 cup",
+    "calories": 110,
+    "protein_g": 7,
+    "carbs_g": 1,
+    "fat_g": 9,
+    "tags": [
+      "vegetarian",
+      "gluten_free"
+    ],
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "loc-stokely-71642-breakfast",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Waffle Bar",
+    "name": "Belgian Waffle",
+    "serving_size": "each",
+    "calories": 240,
+    "protein_g": 7,
+    "carbs_g": 51,
+    "fat_g": 2,
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": [
+      "milk",
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-stokely-71497-breakfast",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Traditions",
+    "name": "Scrambled Eggs",
+    "serving_size": "1/2 cup",
+    "calories": 180,
+    "protein_g": 15,
+    "carbs_g": 1,
+    "fat_g": 12,
+    "tags": [
+      "vegetarian",
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": [
+      "eggs"
+    ]
+  },
+  {
+    "id": "loc-stokely-71500-breakfast",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Pizza",
+    "name": "Assorted Bagels",
+    "serving_size": "each",
+    "calories": 290,
+    "protein_g": 11,
+    "carbs_g": 59,
+    "fat_g": 0,
+    "tags": [],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-103075-breakfast",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Saute'",
+    "name": "Avocado Breakfast Taco",
+    "serving_size": "1 sandwich",
+    "calories": 190,
+    "protein_g": 10,
+    "carbs_g": 22,
+    "fat_g": 7,
+    "tags": [],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71493-breakfast",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Produce",
+    "name": "Overnight Chia Oats",
+    "serving_size": "4 fl oz",
+    "calories": 180,
+    "protein_g": 8,
+    "carbs_g": 25,
+    "fat_g": 6,
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": [
+      "milk",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-stokely-71504-breakfast",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Omelet",
+    "name": "Eggs",
+    "serving_size": "1/4 cup",
+    "calories": 80,
+    "protein_g": 7,
+    "carbs_g": 0,
+    "fat_g": 6,
+    "tags": [
+      "vegetarian",
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": [
+      "eggs"
+    ]
+  },
+  {
+    "id": "loc-stokely-71640-breakfast",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Soup",
+    "name": "Old Fashioned Oatmeal",
+    "serving_size": "6 fl oz",
+    "calories": 110,
+    "protein_g": 4,
+    "carbs_g": 20,
+    "fat_g": 2,
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "dairy_free"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-stokely-71587-breakfast",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Waffle Bar",
+    "name": "Chocolate Syrup",
+    "serving_size": "2 tablespoon",
+    "calories": 70,
+    "protein_g": 1,
+    "carbs_g": 18,
+    "fat_g": 1,
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71498-breakfast",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "breakfast",
+    "station": "Traditions",
+    "name": "Cinnamon French Toast",
+    "serving_size": "2 slice",
+    "calories": 220,
+    "protein_g": 11,
+    "carbs_g": 29,
+    "fat_g": 6,
+    "tags": [],
+    "allergens": [
+      "milk",
+      "eggs"
+    ]
+  },
+  {
+    "id": "loc-stokely-71644-lunch",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Grill",
+    "name": "Timberline Chili",
+    "serving_size": "6 fl oz",
+    "calories": 210,
+    "protein_g": 14,
+    "carbs_g": 16,
+    "fat_g": 11,
+    "tags": [
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-101961-lunch",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Omelet",
+    "name": "Just® Scrambled Eggs",
+    "serving_size": "1/2 cup",
+    "calories": 140,
+    "protein_g": 12,
+    "carbs_g": 2,
+    "fat_g": 10,
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71514-lunch",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Pasta",
+    "name": "Grilled Italian Sausage",
+    "serving_size": "1/4 cup",
+    "calories": 170,
+    "protein_g": 8,
+    "carbs_g": 2,
+    "fat_g": 15,
+    "tags": [],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-103078-lunch",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Vegan",
+    "name": "Spicy Plant-Based Chicken Tenders",
+    "serving_size": "3 each",
+    "calories": 400,
+    "protein_g": 33,
+    "carbs_g": 40,
+    "fat_g": 14,
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "dairy_free"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "soy"
+    ]
+  },
+  {
+    "id": "loc-stokely-71673-lunch",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Soup",
+    "name": "New England Clam Chowder",
+    "serving_size": "6 fl oz",
+    "calories": 170,
+    "protein_g": 7,
+    "carbs_g": 16,
+    "fat_g": 9,
+    "tags": [],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71682-lunch",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Waffle Bar",
+    "name": "Belgian Waffle",
+    "serving_size": "each",
+    "calories": 240,
+    "protein_g": 7,
+    "carbs_g": 51,
+    "fat_g": 2,
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": [
+      "milk",
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-stokely-71466-lunch",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Bakery",
+    "name": "Double Fudge Brownie",
+    "serving_size": "1/64 cut",
+    "calories": 300,
+    "protein_g": 2,
+    "carbs_g": 52,
+    "fat_g": 10,
+    "tags": [],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71661-lunch",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "International",
+    "name": "Vietnamese Roast Pork",
+    "serving_size": "3 ozw",
+    "calories": 190,
+    "protein_g": 28,
+    "carbs_g": 2,
+    "fat_g": 7,
+    "tags": [],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71475-lunch",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Deli",
+    "name": "Turkey Breast",
+    "serving_size": "3 ozw",
+    "calories": 110,
+    "protein_g": 19,
+    "carbs_g": 0,
+    "fat_g": 5,
+    "tags": [
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71676-lunch",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Rotisserie/Made Without Gluten",
+    "name": "Black Garlic Glazed Chicken Thighs",
+    "serving_size": "3 ozw",
+    "calories": 140,
+    "protein_g": 17,
+    "carbs_g": 3,
+    "fat_g": 6,
+    "tags": [
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": [
+      "soy"
+    ]
+  },
+  {
+    "id": "loc-stokely-71462-lunch",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "lunch",
+    "station": "Pizza",
+    "name": "Pepperoni Pizza",
+    "serving_size": "1 cut",
+    "calories": 300,
+    "protein_g": 14,
+    "carbs_g": 36,
+    "fat_g": 13,
+    "tags": [],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71687-dinner",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Grill",
+    "name": "Soft Pretzel",
+    "serving_size": "each",
+    "calories": 180,
+    "protein_g": 6,
+    "carbs_g": 37,
+    "fat_g": 1,
+    "tags": [],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-102378-dinner",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Omelet",
+    "name": "Just® Scrambled Eggs",
+    "serving_size": "1/2 cup",
+    "calories": 140,
+    "protein_g": 12,
+    "carbs_g": 2,
+    "fat_g": 10,
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71709-dinner",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Pasta",
+    "name": "Grilled Blackened Chicken Breast",
+    "serving_size": "1 serving",
+    "calories": 180,
+    "protein_g": 28,
+    "carbs_g": 3,
+    "fat_g": 7,
+    "tags": [
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71723-dinner",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Vegan",
+    "name": "Teriyaki Tofu",
+    "serving_size": "each",
+    "calories": 90,
+    "protein_g": 9,
+    "carbs_g": 4,
+    "fat_g": 4,
+    "tags": [
+      "vegan",
+      "vegetarian",
+      "dairy_free"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "soy"
+    ]
+  },
+  {
+    "id": "loc-stokely-71718-dinner",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Soup",
+    "name": "New England Clam Chowder",
+    "serving_size": "6 fl oz",
+    "calories": 170,
+    "protein_g": 7,
+    "carbs_g": 16,
+    "fat_g": 9,
+    "tags": [],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71724-dinner",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Waffle Bar",
+    "name": "Belgian Waffle",
+    "serving_size": "each",
+    "calories": 240,
+    "protein_g": 7,
+    "carbs_g": 51,
+    "fat_g": 2,
+    "tags": [
+      "vegetarian"
+    ],
+    "allergens": [
+      "milk",
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "loc-stokely-71460-dinner",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Bakery",
+    "name": "Double Fudge Brownie",
+    "serving_size": "1/64 cut",
+    "calories": 300,
+    "protein_g": 2,
+    "carbs_g": 52,
+    "fat_g": 10,
+    "tags": [],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71705-dinner",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "International",
+    "name": "Roast Beef",
+    "serving_size": "3 ozw",
+    "calories": 110,
+    "protein_g": 20,
+    "carbs_g": 0,
+    "fat_g": 3,
+    "tags": [
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71483-dinner",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Deli",
+    "name": "Turkey Breast",
+    "serving_size": "3 ozw",
+    "calories": 110,
+    "protein_g": 19,
+    "carbs_g": 0,
+    "fat_g": 5,
+    "tags": [
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71721-dinner",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Rotisserie/Made Without Gluten",
+    "name": "Chimichurri Chicken",
+    "serving_size": "3 ozw",
+    "calories": 160,
+    "protein_g": 17,
+    "carbs_g": 1,
+    "fat_g": 9,
+    "tags": [
+      "gluten_free",
+      "dairy_free"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "loc-stokely-71468-dinner",
+    "location_id": "loc-stokely",
+    "date": null,
+    "meal_period": "dinner",
+    "station": "Pizza",
+    "name": "Sausage Pizza",
+    "serving_size": "1 cut",
+    "calories": 320,
+    "protein_g": 15,
+    "carbs_g": 36,
+    "fat_g": 15,
+    "tags": [],
+    "allergens": []
+  }
+]
