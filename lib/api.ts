@@ -80,6 +80,14 @@ export async function withAiFallback<T>(call: Promise<T>, fallback: () => T, tim
 
 /* ---------- Routes ---------- */
 
+// PROPOSED — align with Aarohan's lib/ai.ts. `variant` increments on "Regenerate" so the AI can vary picks.
+export interface PlatesBody {
+  location_id: string;
+  meal_period: MealPeriod;
+  remaining: Macros;
+  variant?: number;
+}
+
 export const api = {
   locations: () => request<Location[]>("GET", "/api/locations"),
 
@@ -102,8 +110,7 @@ export const api = {
 
   ai: {
     targets: (profile: Profile) => request<TargetsExplanation>("POST", "/api/ai/targets", { profile_id: profile.id }),
-    plates: (body: { location_id: string; meal_period: MealPeriod; remaining: Macros }) =>
-      request<PlateRecommendation>("POST", "/api/ai/plates", body),
+    plates: (body: PlatesBody) => request<PlateRecommendation>("POST", "/api/ai/plates", body),
     /** `image` is a data URL (base64). */
     photo: (image: string) => request<PhotoEstimate>("POST", "/api/ai/photo", { image }),
   },

@@ -63,7 +63,8 @@ export function LogsProvider({ children }: { children: ReactNode }) {
 
   const addLog = useCallback(
     async (input: FoodLogInput) => {
-      const tempId = `temp-${Date.now()}`;
+      // Must be unique even when several logs are added in the same millisecond (logging a plate).
+      const tempId = `temp-${crypto.randomUUID()}`;
       const temp: FoodLog = { ...input, id: tempId, profile_id: profileId ?? "", logged_at: input.logged_at ?? new Date().toISOString() };
       setLogs((l) => [...l, temp]);
       try {

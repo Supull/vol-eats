@@ -23,7 +23,7 @@ export function ChoiceCards<T extends string>({
   columns?: 1 | 2 | 3;
 }) {
   return (
-    <fieldset className="space-y-2" aria-describedby={error ? `${name}-error` : undefined}>
+    <fieldset className="min-w-0 space-y-2" aria-describedby={error ? `${name}-error` : undefined}>
       <legend className="mb-2 text-sm font-medium">{legend}</legend>
       <div className={cn("grid gap-2", columns === 2 && "grid-cols-2", columns === 3 && "grid-cols-3")}>
         {options.map((o) => {
@@ -85,7 +85,7 @@ export function ChipGroup<T extends string>({
   onChange: (v: T[]) => void;
 }) {
   return (
-    <fieldset>
+    <fieldset className="min-w-0">
       <legend className="mb-1 text-sm font-medium">{legend}</legend>
       {hint ? <p className="mb-2 text-xs text-muted">{hint}</p> : null}
       <div className="flex flex-wrap gap-2">

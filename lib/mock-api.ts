@@ -6,8 +6,8 @@
  * Data written here (profile, logs) is kept in localStorage under "cf.mockdb"
  * so the demo survives a refresh. That stands in for the real database.
  */
-import type { HttpMethod } from "./api";
-import type { FoodLog, FoodLogInput, Macros, MealPeriod, MenuItem, Profile, ProfileInput } from "./types";
+import type { HttpMethod, PlatesBody } from "./api";
+import type { FoodLog, FoodLogInput, MealPeriod, MenuItem, Profile, ProfileInput } from "./types";
 import { ApiError } from "./errors";
 import { computeTargets } from "./targets";
 import { schoolDate } from "./meal-period";
@@ -16,7 +16,9 @@ import { LOCATIONS } from "@/mock/locations";
 import { RETAIL_ITEMS } from "@/mock/retail-items";
 import { mockEvents } from "@/mock/events";
 import { DEMO_EMAIL, DEMO_PROFILE, demoLogs } from "@/mock/demo-profile";
-import { buildMockPlates, mockTargetsExplanation, MOCK_PHOTO_ESTIMATE } from "@/mock/ai";
+import { mockTargetsExplanation, MOCK_PHOTO_ESTIMATE } from "@/mock/ai";
+import { filterForProfile } from "./diet";
+import { buildPlates } from "./plate-builder";
 import hallItems from "@/mock/menu-items.generated.json";
 
 const DB_KEY = "cf.mockdb";
@@ -169,11 +171,11 @@ export async function mockRequest<T>(method: HttpMethod, path: string, body?: un
     }
 
     case "POST /api/ai/plates": {
-      const { location_id, meal_period, remaining } = body as { location_id: string; meal_period: MealPeriod; remaining: Macros };
+      const { location_id, meal_period, remaining, variant } = body as PlatesBody;
       const menu = allMenuItems(today).filter(
         (i) => i.location_id === location_id && (i.meal_period === meal_period || i.meal_period === "all_day"),
       );
-      return buildMockPlates(menu, remaining) as T;
+      return buildPlates(profile ? filterForProfile(menu, profile) : menu, remaining, variant) as T;
     }
 
     case "POST /api/ai/photo":

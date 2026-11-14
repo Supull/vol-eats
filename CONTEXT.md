@@ -36,3 +36,16 @@ All the changes done by the AI is entered in here.
 - Free-food card: the next 1–2 events that haven't ended, with a "Fits your macros" / "Over your remaining" / "Calories unknown" badge based on `est_calories` vs remaining calories (`lib/events.ts`, `components/events/fit-badge.tsx`). If events fail to load, the card hides instead of erroring.
 - Also added: `components/ui/toast.tsx`, `components/ui/stepper.tsx`, `lib/format.ts`.
 - Tests: 31 passing.
+
+## 2026-11-14 — Frontend phase 4: Plate picks and Menus (Claude Code, for Swagat)
+
+- `/plates`: location chips (swipe-only plans see dining halls only; others also see retail), a Breakfast/Lunch/Dinner picker (disabled for retail, "Same menu all day"), skeleton cards with rotating copy while loading, and 2–3 plate cards. Each card shows its items with servings, the plate's protein/carbs/fat as bars against what's left today, and the AI reason. "Log this plate" logs every item (`source: "plate"`) and returns to `/today`. "Regenerate" sends `variant + 1`, and a "Browse the menu" link goes to `/menus`.
+- AI fallback: if `POST /api/ai/plates` takes over 5 s or fails, the page builds plates locally from the real menu (`lib/plate-builder.ts`) and labels them "Offline estimate". The mock route uses the same builder.
+- `lib/diet.ts`: diet and allergen filtering. Plates only use items that fit the user's diet tags and allergens. UTK data has no halal or pork flags, so "No pork" and "Halal" exclude pork by name (`TODO(schema)`).
+- `/menus`: location chips, meal-period picker, search, and diet filter chips (the user's own diet is preselected). Items are grouped by station with calories, P/C/F, diet badges, price for retail, and a warning icon when an item contains one of the user's allergens. Tapping an item opens a sheet with full macros, allergens, a 0.5-step servings stepper and "Log". Empty states: "Menu not posted yet" and "Nothing matches your search or filters".
+- `PROPOSED` for Aarohan: `POST /api/ai/plates` body `{ location_id, meal_period, remaining, variant? }` (`PlatesBody` in `lib/api.ts`).
+- `TODO(nearest)`: Plates defaults to the first dining hall, since there's no location data yet.
+- Fixed while testing:
+  - Logging a plate showed one item three times on Today: the optimistic placeholders had the same temporary ID. They now use `crypto.randomUUID()`.
+  - The page was 497px wide on phones because a `<fieldset>` defaults to `min-width: min-content`. Added `min-w-0` to the chip fieldsets.
+- Tests: 36 passing.
