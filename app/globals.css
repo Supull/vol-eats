@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+/*
+ * DESIGN TOKENS — the only place colors, radii, shadows and fonts are defined.
+ * Components use the Tailwind utilities mapped below (bg-surface, text-muted,
+ * rounded-lg, shadow-card, text-protein, ...). To swap themes, edit this file.
+ * Placeholder theme until DESIGN.md is chosen. Token reference: docs/theme.md
+ */
+:root {
+  --bg: #f7f7f5;
+  --surface: #ffffff;
+  --surface-2: #f0efeb;
+  --text: #1c1c1a;
+  --text-muted: #6b6a65;
+  --border: #e3e2dd;
+
+  --primary: #ff8200; /* UT orange */
+  --primary-fg: #1c1c1a; /* dark text on orange passes contrast; white does not */
+  --accent: #58595b; /* UT smokey gray */
+
+  /* Dark enough for small text on --surface-2 (WCAG AA 4.5:1). */
+  --success: #1f6f43;
+  --warning: #8a5a10;
+  --danger: #c53030;
+
+  --calories: #ff8200;
+  --protein: #3b6fd8;
+  --carbs: #2f9e8f;
+  --fat: #b9852f;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.05), 0 2px 8px rgb(0 0 0 / 0.04);
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-sans);
+
+  --tab-bar-height: 64px;
+  --content-max: 480px;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-text: var(--text);
+  --color-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-fg: var(--primary-fg);
+  --color-accent: var(--accent);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-calories: var(--calories);
+  --color-protein: var(--protein);
+  --color-carbs: var(--carbs);
+  --color-fat: var(--fat);
+
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --shadow-card: var(--shadow-card);
+
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+  }
+  *,
+  ::before,
+  ::after {
+    border-color: var(--border);
+  }
+  :focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
