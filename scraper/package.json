@@ -1,0 +1,32 @@
+{
+  "name": "voleats-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes today's UTK Rocky Top and Stokely dining hall menus into normalized JSON.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "bin": {
+    "voleats-scrape": "./cli.js"
+  },
+  "scripts": {
+    "scrape": "node cli.js",
+    "serve": "node server.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "cli.js",
+    "server.js"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
