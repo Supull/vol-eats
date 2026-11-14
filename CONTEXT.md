@@ -27,3 +27,12 @@ All the changes done by the AI is entered in here.
 - Small UI primitives in `components/ui/` (Button, Field/Input/Select, ChoiceCards, ChipGroup, Skeleton, ErrorState). They're token-styled and deliberately plain until the theme is chosen.
 - New route used: `PATCH /api/profile` for manual target overrides (`TODO(§9)`: confirm with backend).
 - Tests: 27 passing (`npm test`).
+
+## 2026-11-14 — Frontend phase 3: Today dashboard and logging (Claude Code, for Swagat)
+
+- `/today` (`app/(app)/today/page.tsx`): greeting, date and current meal period (Eastern time), a big calorie ring and three small protein/carbs/fat rings (`components/today/macro-ring.tsx`, plain SVG, every number also shown as text), a "What should I eat?" button that goes to `/plates`, the free-food card, the logged meals list, an empty state for new users, and a sign-out button.
+- Logged meals are grouped by meal period. Tapping one opens a bottom sheet (`components/ui/sheet.tsx`, native `<dialog>`) with a 0.5-step servings stepper, Save and Delete. Delete shows an "Undo" toast.
+- `lib/hooks/use-logs.tsx`: `LogsProvider` holds today's logs for every tab, so a log added on Plates, Menus or Log shows up on Today without a refetch. `addLog` / `updateLog` / `deleteLog` are optimistic and roll back with an error toast if the API call fails.
+- Free-food card: the next 1–2 events that haven't ended, with a "Fits your macros" / "Over your remaining" / "Calories unknown" badge based on `est_calories` vs remaining calories (`lib/events.ts`, `components/events/fit-badge.tsx`). If events fail to load, the card hides instead of erroring.
+- Also added: `components/ui/toast.tsx`, `components/ui/stepper.tsx`, `lib/format.ts`.
+- Tests: 31 passing.
