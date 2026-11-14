@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { LogOut, Sparkles, UtensilsCrossed } from "lucide-react";
+import { LogOut, RotateCcw, Sparkles, UtensilsCrossed } from "lucide-react";
+import { USE_MOCKS } from "@/lib/config";
+import { getSession } from "@/lib/session";
 import { FreeFoodCard } from "@/components/today/free-food-card";
 import { LoggedMeals } from "@/components/today/logged-meals";
 import { MacroSummary } from "@/components/today/macro-summary";
@@ -13,6 +15,19 @@ import { useLogs } from "@/lib/hooks/use-logs";
 import { useProfile } from "@/lib/hooks/use-profile";
 import { remaining, targetsOf } from "@/lib/macros";
 import { currentMealPeriod, MEAL_PERIOD_LABELS } from "@/lib/meal-period";
+
+const iconBtn = "flex size-11 items-center justify-center rounded-full text-muted hover:bg-surface-2 hover:text-text";
+
+/** Demo rehearsal: wipe mock data back to "breakfast logged" and reload. Mocks only. */
+async function resetDemo() {
+  const { resetMockDb } = await import("@/lib/mock-api");
+  resetMockDb();
+  try {
+    window.localStorage.removeItem("cf.budget-prefs");
+  } catch {}
+  // Full reload (not router.push) so the in-memory profile and logs reset too.
+  window.location.reload();
+}
 
 export default function TodayPage() {
   const { profile, loading: profileLoading, error: profileError, reload: reloadProfile, signOut } = useProfile();
@@ -46,14 +61,16 @@ export default function TodayPage() {
             {MEAL_PERIOD_LABELS[period]} is being served
           </p>
         </div>
-        <button
-          type="button"
-          onClick={signOut}
-          aria-label="Sign out"
-          className="flex size-11 items-center justify-center rounded-full text-muted hover:bg-surface-2 hover:text-text"
-        >
-          <LogOut aria-hidden className="size-5" />
-        </button>
+        <div className="flex">
+          {USE_MOCKS && getSession()?.isDemo ? (
+            <button type="button" onClick={resetDemo} aria-label="Reset demo data" title="Reset demo data" className={iconBtn}>
+              <RotateCcw aria-hidden className="size-5" />
+            </button>
+          ) : null}
+          <button type="button" onClick={signOut} aria-label="Sign out" title="Sign out" className={iconBtn}>
+            <LogOut aria-hidden className="size-5" />
+          </button>
+        </div>
       </header>
 
       {logsError ? (

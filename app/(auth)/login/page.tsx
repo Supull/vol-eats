@@ -10,7 +10,6 @@ import { Button } from "@/components/ui/button";
 import { Field, Input, a11y } from "@/components/ui/field";
 import { api } from "@/lib/api";
 import { ALLOWED_EMAIL_DOMAINS, APP_NAME, APP_TAGLINE } from "@/lib/config";
-import { errorMessage } from "@/lib/errors";
 import { getSession, setSession } from "@/lib/session";
 import { DEMO_EMAIL } from "@/mock/demo-profile";
 
@@ -43,9 +42,9 @@ export default function LoginPage() {
     try {
       const profile = await api.getProfile();
       router.replace(profile ? "/today" : "/onboarding");
-    } catch (e) {
+    } catch {
       setSession(null);
-      setError(errorMessage(e));
+      setError("Couldn't sign in right now. Check your connection and try again.");
       setBusy(null);
     }
   }

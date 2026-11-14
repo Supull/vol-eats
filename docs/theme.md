@@ -15,8 +15,8 @@ The current values are a **placeholder theme** (neutral surfaces with UT orange)
 | `--primary` | `bg-primary`, `text-primary` | `#ff8200` | Main buttons, Log tab, focus ring |
 | `--primary-fg` | `text-primary-fg` | `#1c1c1a` | Text and icons on primary |
 | `--accent` | `bg-accent`, `text-accent` | `#58595b` | Secondary emphasis |
-| `--success` | `text-success` | `#2f8f5b` | "Fits your macros" badges, confirmations |
-| `--warning` | `text-warning` | `#b7791f` | "Over your remaining", low balance |
+| `--success` | `text-success` | `#1f6f43` | "Fits your macros" badges, confirmations |
+| `--warning` | `text-warning` | `#8a5a10` | "Over your remaining", low balance |
 | `--danger` | `text-danger` | `#c53030` | Errors, delete |
 | `--calories` | `text-calories`, `stroke-calories` | `#ff8200` | Calorie ring |
 | `--protein` | `text-protein` | `#3b6fd8` | Protein ring, bars, labels |

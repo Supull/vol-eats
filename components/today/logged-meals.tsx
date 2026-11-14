@@ -40,9 +40,10 @@ export function LoggedMeals({ logs }: { logs: FoodLog[] }) {
                       onClick={() => setEditingId(l.id)}
                       disabled={l.id.startsWith("temp-")}
                       className="flex min-h-14 w-full items-center gap-3 px-4 py-3 text-left transition-colors duration-150 hover:bg-surface-2 disabled:opacity-60"
-                      aria-label={`Edit ${l.name}, ${l.servings} serving${l.servings === 1 ? "" : "s"}`}
                     >
-                      <Icon aria-label={SOURCE_LABEL[l.source]} className="size-4 shrink-0 text-muted" />
+                      {/* Name comes from the visible text (plus a hidden "Edit"), so voice control matches what's on screen. */}
+                      <Icon aria-hidden className="size-4 shrink-0 text-muted" />
+                      <span className="sr-only">Edit </span>
                       <span className="min-w-0 flex-1">
                         <span className="block truncate text-sm font-medium">
                           {l.servings !== 1 ? <span className="text-muted">{l.servings} × </span> : null}
@@ -52,7 +53,11 @@ export function LoggedMeals({ logs }: { logs: FoodLog[] }) {
                           P {Math.round(l.protein_g * l.servings)} · C {Math.round(l.carbs_g * l.servings)} · F {Math.round(l.fat_g * l.servings)} g
                         </span>
                       </span>
-                      <span className="text-sm font-semibold tabular-nums">{Math.round(l.calories * l.servings)}</span>
+                      <span className="sr-only">{SOURCE_LABEL[l.source]}, </span>
+                      <span className="text-sm font-semibold tabular-nums">
+                        {Math.round(l.calories * l.servings)}
+                        <span className="sr-only"> calories</span>
+                      </span>
                       <ChevronRight aria-hidden className="size-4 text-muted" />
                     </button>
                   </li>

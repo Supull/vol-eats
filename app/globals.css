@@ -18,8 +18,9 @@
   --primary-fg: #1c1c1a; /* dark text on orange passes contrast; white does not */
   --accent: #58595b; /* UT smokey gray */
 
-  --success: #2f8f5b;
-  --warning: #b7791f;
+  /* Dark enough for small text on --surface-2 (WCAG AA 4.5:1). */
+  --success: #1f6f43;
+  --warning: #8a5a10;
   --danger: #c53030;
 
   --calories: #ff8200;

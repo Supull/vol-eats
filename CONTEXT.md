@@ -66,3 +66,18 @@ All the changes done by the AI is entered in here.
   - The semester end and "spent this week" are saved in localStorage as per-person settings.
 - `TODO(schema)`: retail `price_usd` values are still placeholders, and the page says "Prices are estimates".
 - Tests: 41 passing.
+
+## 2026-11-14 — Frontend phase 6: polish pass (Claude Code, for Swagat)
+
+- **Accessibility:** Lighthouse accessibility scores 100 on all 12 screens: login, 4 onboarding steps, targets, Today, Plates, Menus, Log, Budget and Events. It ran against a production build at mobile size with the demo session. Fixes:
+  - Darkened `--success` and `--warning` so small text passes 4.5:1 on `--surface-2`.
+  - Logged-meal buttons now take their accessible name from the visible text plus a hidden "Edit".
+  - The plate macro bars use a list instead of an invalid `<dl>`.
+- **Mobile QA:** at 360px and 430px, no screen overflows sideways. Three-column choice cards (sex) are now text-only, and "Prefer not to say" became "Rather not say" so it fits on small phones.
+- **Added:**
+  - `app/error.tsx` (friendly crash screen; in this Next version the prop is `retry`) and `app/not-found.tsx`.
+  - A "Reset demo data" button on Today, shown only for the demo account with mocks on.
+  - Run instructions in `README.md`.
+- **Mocks off** (`NEXT_PUBLIC_USE_MOCKS=false` production build): no mock code ships in the bundle. The repo has no `/api` routes yet, so every call 404s. Login shows "Couldn't sign in right now", and each screen shows "Try again" with no crash. The full demo path needs the backend routes in `lib/api.ts`.
+- **Error copy:** 404 now uses the generic message instead of "We couldn't find that", since a 404 usually means a route isn't deployed yet. Menus and Plates no longer show a loading skeleton under the error when locations fail.
+- **Mocks on:** ran the full demo path: demo login (640 cal) → plate picks → log a plate (1,180) → log from Menus (1,360) → Budget → Events → Reset (640).

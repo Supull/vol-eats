@@ -136,7 +136,7 @@ function Plates() {
         </div>
       )}
 
-      {currentError ? (
+      {locError ? null : currentError ? (
         <ErrorState error={currentError} onRetry={() => setAttempt((a) => a + 1)} />
       ) : !current || !left ? (
         <LoadingPlates hall={hallName} />

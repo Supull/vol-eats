@@ -58,27 +58,27 @@ export function PlateCard({
         ))}
       </ul>
 
-      <dl className="mt-4 space-y-2">
+      <ul aria-label="Plate macros vs what's left today" className="mt-4 space-y-2">
         {BARS.map((b) => {
           const value = t[b.key];
           const left = remaining[b.key];
           const pct = left > 0 ? Math.min(1, value / left) : 1;
           const over = value > left;
           return (
-            <div key={b.key}>
+            <li key={b.key}>
               <div className="flex justify-between text-xs">
-                <dt className="font-medium">{b.label}</dt>
-                <dd className={cn("tabular-nums", over ? "text-warning" : "text-muted")}>
+                <span className="font-medium">{b.label}</span>
+                <span className={cn("tabular-nums", over ? "text-warning" : "text-muted")}>
                   {Math.round(value)} g of {Math.round(left)} g left{over ? " (over)" : ""}
-                </dd>
+                </span>
               </div>
               <div aria-hidden className="mt-1 h-1.5 overflow-hidden rounded-full bg-surface-2">
                 <div className={cn("h-full rounded-full", b.color)} style={{ width: `${pct * 100}%` }} />
               </div>
-            </div>
+            </li>
           );
         })}
-      </dl>
+      </ul>
 
       <p className="mt-3 flex gap-1.5 text-sm text-muted">
         <Sparkles aria-hidden className="mt-0.5 size-4 shrink-0 text-primary" />

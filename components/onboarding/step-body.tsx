@@ -72,7 +72,7 @@ function toMetric(v: { units: UnitSystem; height_ft?: number; height_in?: number
 const SEX_OPTIONS: { value: Sex; label: string }[] = [
   { value: "male", label: "Male" },
   { value: "female", label: "Female" },
-  { value: "unspecified", label: "Prefer not to say" },
+  { value: "unspecified", label: "Rather not say" },
 ];
 
 const ACTIVITY: { value: ActivityLevel; label: string; description: string }[] = [

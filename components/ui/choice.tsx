@@ -28,11 +28,14 @@ export function ChoiceCards<T extends string>({
       <div className={cn("grid gap-2", columns === 2 && "grid-cols-2", columns === 3 && "grid-cols-3")}>
         {options.map((o) => {
           const checked = value === o.value;
+          // Three across is too narrow for the radio dot on small phones, so those cards are text-only.
+          const compact = columns === 3;
           return (
             <label
               key={o.value}
               className={cn(
                 "flex min-h-11 cursor-pointer items-start gap-3 rounded-md border bg-surface p-3 transition-colors duration-150 has-focus-visible:outline-2 has-focus-visible:outline-primary",
+                compact && "items-center justify-center gap-1 px-2 text-center",
                 checked && "border-primary bg-surface-2",
               )}
             >
@@ -44,15 +47,19 @@ export function ChoiceCards<T extends string>({
                 onChange={() => onChange(o.value)}
                 className="sr-only"
               />
-              <span
-                aria-hidden
-                className={cn(
-                  "mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full border",
-                  checked && "border-primary bg-primary text-primary-fg",
-                )}
-              >
-                {checked ? <Check className="size-3" /> : null}
-              </span>
+              {compact ? (
+                checked ? <Check aria-hidden className="size-4 shrink-0 text-text" /> : null
+              ) : (
+                <span
+                  aria-hidden
+                  className={cn(
+                    "mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full border",
+                    checked && "border-primary bg-primary text-primary-fg",
+                  )}
+                >
+                  {checked ? <Check className="size-3" /> : null}
+                </span>
+              )}
               <span>
                 <span className="block text-sm font-semibold">{o.label}</span>
                 {o.description ? <span className="block text-xs text-muted">{o.description}</span> : null}
