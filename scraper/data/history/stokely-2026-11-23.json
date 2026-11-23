@@ -4,47 +4,9 @@
   "serviceAreaId": 116094,
   "source": "https://dining.utk.edu/vendor/stokely-dining-hall/",
   "date": "2026-11-23",
-  "scrapedAt": "2026-11-23T07:39:47.298Z",
-  "itemCount": 291,
+  "scrapedAt": "2026-11-23T20:14:32.937Z",
+  "itemCount": 283,
   "items": [
-    {
-      "id": "76752",
-      "name": "Caramel Apple Bread Pudding",
-      "station": "Bakery",
-      "period": "Lunch",
-      "description": "Homemade bread pudding topped with caramel apple sauce",
-      "serving": "1 serving",
-      "nutrition": {
-        "calories": 380,
-        "total_fat": 14,
-        "saturated_fat": 6.5,
-        "trans_fat": 0,
-        "cholesterol": 100,
-        "sodium": 268,
-        "carbohydrate": 52,
-        "fiber": 2,
-        "total_sugars": 33,
-        "protein": 9.1,
-        "calcium": 165.4,
-        "iron": 1.7,
-        "potassium": 230
-      },
-      "vegan": false,
-      "vegetarian": null,
-      "contains": {
-        "soy": true,
-        "eggs": true,
-        "fish": false,
-        "milk": true,
-        "wheat": true,
-        "gluten": true,
-        "peanut": false,
-        "sesame": false,
-        "shellfish": false,
-        "tree_nuts": false
-      },
-      "ingredients": "Whole Milk, Texas Toast (ENRICHED FLOUR (WHEAT FLOUR UNBLEACHED, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, SUGAR, SOYBEAN OIL, WHEAT GLUTEN, CONTAINS LESS THAN 2% OF ASCORBIC ACID, CALCIUM PROPIONATE (TO RETAIN FRESHNESS), CALCIUM SULFATE, ENZYMES, YELLOW CORN FLOUR, TURMERIC, PAPRIKA, NATURAL FLAVOR, SALT, YEAST.), Apple, Egg Blend (WHOLE EGG, CITRIC ACID, 0.15% WATER ADDED AS CARRIER FOR CITRIC ACID. CITRIC ACID ADDED TO PRESERVE COLOR.), Granulated Sugar, Brown Sugar, Unsalted Butter (Pasteurized Cream, Natural Flavoring.), Margarine (PALM OIL, WATER, SOYBEAN OIL, CONTAINS LESS THAN 2% OF SOY LECITHIN, VEGETABLE MONO & DIGLYCERIDES, POTASSIUM SORBATE (A PRESERVATIVE), CITRIC ACID, NATURAL & ARTIFICIAL FLAVOR, BETA CAROTENE (COLOR), VITAMIN A PALMITATE ADDED, WHEY.), Pure Vanilla Extract, Powdered Sugar, Cinnamon, Pure Vanilla Extract, Cinnamon, Nutmeg"
-    },
     {
       "id": "76750",
       "name": "Chocolate Chip Cookie",
@@ -82,44 +44,6 @@
         "tree_nuts": false
       },
       "ingredients": "Chocolate Chip Cookie (Enriched bleached flour (bleached wheat flour, malted barley flour, niacin, iron, thiamine mononitrate, riboflavin, folic acid), Sugar, Palm oil, Margarine (palm oil, water, soybean oil, contains 2% or less of: salt, mono- and diglycerides, natural flavor [contains milk], citric acid, vitamin A palmitate added, beta carotene [color]), Semi-sweet chocolate chips (sugar, unsweetened chocolate, cocoa butter, dextrose, soy lecithin, natural flavor, milk), Chocolate flavored chips (sugar, fractionated interesterified  vegetable fat [palm kernel and/or palm oils], cocoa powder [processed with alkali], dextrose, soy lecithin, polysorbate 60, sorbitan monostearate, natural flavor, salt, vanilla extract, milk), Water, Eggs, Dextrose, Contains 2% or less of: Molasses, Pregelatinized wheat starch, Baking soda, Salt, Natural and artificial flavors.)"
-    },
-    {
-      "id": "76748",
-      "name": "Chocolate Cupcake",
-      "station": "Bakery",
-      "period": "Lunch",
-      "description": "Baked to perfection, chocolate cupcake topped with a generous swirl of chocolate whipped icing",
-      "serving": "each",
-      "nutrition": {
-        "calories": 310,
-        "total_fat": 13.5,
-        "saturated_fat": 8,
-        "trans_fat": 0,
-        "cholesterol": 0,
-        "sodium": 114,
-        "carbohydrate": 45,
-        "fiber": 2,
-        "total_sugars": 33,
-        "protein": 2.7,
-        "calcium": 12.1,
-        "iron": 2.9,
-        "potassium": 40
-      },
-      "vegan": null,
-      "vegetarian": null,
-      "contains": {
-        "soy": null,
-        "eggs": null,
-        "fish": null,
-        "milk": null,
-        "wheat": true,
-        "gluten": null,
-        "peanut": null,
-        "sesame": null,
-        "shellfish": null,
-        "tree_nuts": null
-      },
-      "ingredients": "Powdered Sugar, Plant Based Butter Spread, Oat Milk, Granulated Sugar, Rice Flour, Baking Cocoa, Oat Milk, Baking Cocoa, White Vinegar, Canola Oil, Baking Soda, Pure Vanilla Extract, Xanthan Gum, Pure Vanilla Extract, Kosher Salt"
     },
     {
       "id": "102506",
@@ -312,44 +236,6 @@
       "ingredients": "Vanilla Icing, Granulated Sugar, Wheat Flour, Carrots, Vegetable Oil Blend, Egg Blend, Seedless Raisins, Baking Soda, Baking Powder, Cinnamon, Kosher Salt, Nutmeg, Cloves"
     },
     {
-      "id": "76789",
-      "name": "Caramel Apple Bread Pudding",
-      "station": "Bakery",
-      "period": "Dinner",
-      "description": "Homemade bread pudding topped with caramel apple sauce",
-      "serving": "1 serving",
-      "nutrition": {
-        "calories": 380,
-        "total_fat": 14,
-        "saturated_fat": 6.5,
-        "trans_fat": 0,
-        "cholesterol": 100,
-        "sodium": 268,
-        "carbohydrate": 52,
-        "fiber": 2,
-        "total_sugars": 33,
-        "protein": 9.1,
-        "calcium": 165.4,
-        "iron": 1.7,
-        "potassium": 230
-      },
-      "vegan": false,
-      "vegetarian": null,
-      "contains": {
-        "soy": true,
-        "eggs": true,
-        "fish": false,
-        "milk": true,
-        "wheat": true,
-        "gluten": true,
-        "peanut": false,
-        "sesame": false,
-        "shellfish": false,
-        "tree_nuts": false
-      },
-      "ingredients": "Whole Milk, Texas Toast (ENRICHED FLOUR (WHEAT FLOUR UNBLEACHED, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, SUGAR, SOYBEAN OIL, WHEAT GLUTEN, CONTAINS LESS THAN 2% OF ASCORBIC ACID, CALCIUM PROPIONATE (TO RETAIN FRESHNESS), CALCIUM SULFATE, ENZYMES, YELLOW CORN FLOUR, TURMERIC, PAPRIKA, NATURAL FLAVOR, SALT, YEAST.), Apple, Egg Blend (WHOLE EGG, CITRIC ACID, 0.15% WATER ADDED AS CARRIER FOR CITRIC ACID. CITRIC ACID ADDED TO PRESERVE COLOR.), Granulated Sugar, Brown Sugar, Unsalted Butter (Pasteurized Cream, Natural Flavoring.), Margarine (PALM OIL, WATER, SOYBEAN OIL, CONTAINS LESS THAN 2% OF SOY LECITHIN, VEGETABLE MONO & DIGLYCERIDES, POTASSIUM SORBATE (A PRESERVATIVE), CITRIC ACID, NATURAL & ARTIFICIAL FLAVOR, BETA CAROTENE (COLOR), VITAMIN A PALMITATE ADDED, WHEY.), Pure Vanilla Extract, Powdered Sugar, Cinnamon, Pure Vanilla Extract, Cinnamon, Nutmeg"
-    },
-    {
       "id": "76790",
       "name": "Chocolate Chip Cookie",
       "station": "Bakery",
@@ -388,26 +274,26 @@
       "ingredients": "Chocolate Chip Cookie (Enriched bleached flour (bleached wheat flour, malted barley flour, niacin, iron, thiamine mononitrate, riboflavin, folic acid), Sugar, Palm oil, Margarine (palm oil, water, soybean oil, contains 2% or less of: salt, mono- and diglycerides, natural flavor [contains milk], citric acid, vitamin A palmitate added, beta carotene [color]), Semi-sweet chocolate chips (sugar, unsweetened chocolate, cocoa butter, dextrose, soy lecithin, natural flavor, milk), Chocolate flavored chips (sugar, fractionated interesterified  vegetable fat [palm kernel and/or palm oils], cocoa powder [processed with alkali], dextrose, soy lecithin, polysorbate 60, sorbitan monostearate, natural flavor, salt, vanilla extract, milk), Water, Eggs, Dextrose, Contains 2% or less of: Molasses, Pregelatinized wheat starch, Baking soda, Salt, Natural and artificial flavors.)"
     },
     {
-      "id": "76791",
-      "name": "Chocolate Cupcake",
+      "id": "104342",
+      "name": "Extra Chocolate Cream Pie",
       "station": "Bakery",
       "period": "Dinner",
-      "description": "Baked to perfection, chocolate cupcake topped with a generous swirl of chocolate whipped icing",
-      "serving": "each",
+      "description": "Chocolate pudding pie covered with creamy whipped topping",
+      "serving": "1 pie",
       "nutrition": {
-        "calories": 310,
-        "total_fat": 13.5,
-        "saturated_fat": 8,
+        "calories": 300,
+        "total_fat": 16.5,
+        "saturated_fat": 11,
         "trans_fat": 0,
         "cholesterol": 0,
-        "sodium": 114,
-        "carbohydrate": 45,
-        "fiber": 2,
-        "total_sugars": 33,
-        "protein": 2.7,
-        "calcium": 12.1,
-        "iron": 2.9,
-        "potassium": 40
+        "sodium": 232,
+        "carbohydrate": 38,
+        "fiber": 1,
+        "total_sugars": 25,
+        "protein": 1.7,
+        "calcium": 29.9,
+        "iron": 1.2,
+        "potassium": 150
       },
       "vegan": null,
       "vegetarian": null,
@@ -416,14 +302,14 @@
         "eggs": null,
         "fish": null,
         "milk": null,
-        "wheat": true,
+        "wheat": null,
         "gluten": null,
         "peanut": null,
         "sesame": null,
         "shellfish": null,
         "tree_nuts": null
       },
-      "ingredients": "Powdered Sugar, Plant Based Butter Spread, Oat Milk, Granulated Sugar, Rice Flour, Baking Cocoa, Oat Milk, Baking Cocoa, White Vinegar, Canola Oil, Baking Soda, Pure Vanilla Extract, Xanthan Gum, Pure Vanilla Extract, Kosher Salt"
+      "ingredients": "Chocolate Cream Pie"
     },
     {
       "id": "76788",
@@ -3960,6 +3846,19 @@
       "ingredients": "Water, Wasabi Powder"
     },
     {
+      "id": "104339",
+      "name": "Asian Seared Beef Strips",
+      "station": "International",
+      "period": "Dinner",
+      "description": null,
+      "serving": null,
+      "nutrition": {},
+      "vegan": null,
+      "vegetarian": null,
+      "contains": {},
+      "ingredients": null
+    },
+    {
       "id": "76651",
       "name": "Bok Choy",
       "station": "International",
@@ -4300,44 +4199,6 @@
         "tree_nuts": false
       },
       "ingredients": "Onion, Red Wine Vinegar, Agave Nectar (Agave), Ground Mustard, Kosher Salt, Black Pepper"
-    },
-    {
-      "id": "76578",
-      "name": "Roasted Pork Loin",
-      "station": "International",
-      "period": "Dinner",
-      "description": "Seasoned oven-roasted pork loin",
-      "serving": "3 ozw",
-      "nutrition": {
-        "calories": 180,
-        "total_fat": 7,
-        "saturated_fat": 2.5,
-        "trans_fat": 0,
-        "cholesterol": 75,
-        "sodium": 206,
-        "carbohydrate": 0,
-        "fiber": 0,
-        "total_sugars": 0,
-        "protein": 27.4,
-        "calcium": 22.3,
-        "iron": 1.1,
-        "potassium": 500
-      },
-      "vegan": false,
-      "vegetarian": false,
-      "contains": {
-        "soy": false,
-        "eggs": false,
-        "fish": false,
-        "milk": false,
-        "wheat": false,
-        "gluten": false,
-        "peanut": false,
-        "sesame": false,
-        "shellfish": false,
-        "tree_nuts": false
-      },
-      "ingredients": "Pork Loin, Kosher Salt, Black Pepper"
     },
     {
       "id": "76732",
@@ -5898,82 +5759,6 @@
       "ingredients": "Cream Cheese (Pasteurized Milk And Cream, Whey Protein Concentrate, Modified Food Starch, Salt, Cheese Culture, Guar Gum, Lactic Acid, Carob Bean Gum, Xanthan Gum, Natamycin (a Natural Mold Inhibitor)), Water"
     },
     {
-      "id": "102510",
-      "name": "Assorted Bagels",
-      "station": "Pizza",
-      "period": "Lunch",
-      "description": "Plain, cinnamon raisin and blueberry bagels",
-      "serving": "each",
-      "nutrition": {
-        "calories": 290,
-        "total_fat": 0,
-        "saturated_fat": 0,
-        "trans_fat": 0,
-        "cholesterol": 0,
-        "sodium": 582,
-        "carbohydrate": 59,
-        "fiber": 2,
-        "total_sugars": 6,
-        "protein": 11,
-        "calcium": 26.1,
-        "iron": 3.6,
-        "potassium": 280
-      },
-      "vegan": null,
-      "vegetarian": null,
-      "contains": {
-        "soy": null,
-        "eggs": null,
-        "fish": null,
-        "milk": null,
-        "wheat": null,
-        "gluten": null,
-        "peanut": null,
-        "sesame": null,
-        "shellfish": null,
-        "tree_nuts": null
-      },
-      "ingredients": "Bagel"
-    },
-    {
-      "id": "102508",
-      "name": "Blueberry Iced Cinnamon Roll",
-      "station": "Pizza",
-      "period": "Lunch",
-      "description": "Freshly baked cinnamon roll with cream cheese icing and blueberry topping",
-      "serving": "1 roll",
-      "nutrition": {
-        "calories": 230,
-        "total_fat": 9,
-        "saturated_fat": 4.5,
-        "trans_fat": 0,
-        "cholesterol": 5,
-        "sodium": 241,
-        "carbohydrate": 34,
-        "fiber": 1,
-        "total_sugars": 19,
-        "protein": 3.2,
-        "calcium": 3.9,
-        "iron": 1.3,
-        "potassium": 10
-      },
-      "vegan": false,
-      "vegetarian": true,
-      "contains": {
-        "soy": true,
-        "eggs": false,
-        "fish": false,
-        "milk": true,
-        "wheat": true,
-        "gluten": true,
-        "peanut": false,
-        "sesame": false,
-        "shellfish": false,
-        "tree_nuts": false
-      },
-      "ingredients": "Cinnamon Roll (ENRICHED FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR,   NIACIN, IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, SUGAR,   PALM OIL, MARGARINE (PALM OIL, WATER, SOYBEAN OIL, SALT, MONO AND   DIGLYCERIDES, SOY LECITHIN, NATURAL FLAVOR, BETA CAROTENE COLOR, VITAMIN A   PALMITATE), SOYBEAN OIL, HIGH FRUCTOSE CORN SYRUP, YEAST, CINNAMON,   MONOGLYCERIDES, WHEAT PROTEIN ISOLATE, SODIUM CASEINATE, MODIFIED CORN   STARCH, DATEM, GLUCONO DELTA-LACTONE, BAKING SODA, SALT, SODIUM ACID   PYROPHOSPHATE, MOLASSES, NATURAL FLAVOR, ASCORBIC ACID. CONTAINS WHEAT, MILK AND SOY INGREDIENTS. ), Cream Cheese Icing (Sugar, Cream Cheese (Pasteurized Milk and Cream, Salt, Carob Bean Gum, Cheese Culture), Vegetable Shortening (Palm Oil, Canola Oil, Mono- and Diglycerides, Polysorbate 60), Dextrose. Contains 2% or less of each of the following: Cream Cheese Powder (Cream Cheese Solids [Cream, Nonfat Milk, Salt, Sodium Alginate, Lactic Acid], Corn Syrup Solids, Sodium Caseinate [Milk], Natural Flavor), Corn Starch, Soybean Oil, Salt, Natural Flavor, Benzoic Acid (Preservative), Polysorbate 60, Propyl Gallate (Antioxidant), Beta Carotene (Color).), Blueberry Pie Filling (Blueberries, High Fructose Corn Syrup, Water, Modified Food Starch. Contains less than 2% of: Citric Acid, Natural Flavor, Potassium Sorbate and Sodium Benzoate (Preservatives), Salt, Sodium Citrate, Spice.)"
-    },
-    {
       "id": "76556",
       "name": "Classic Cheese Pizza",
       "station": "Pizza",
@@ -6088,44 +5873,6 @@
       "ingredients": "All Purpose Flour (Bleached  Wheat Flour, Malted Barley Flour, Niacin, Iron, Potassium Bromate, Thiamin  Mononitrate, Riboflavin, Folic Acid.), Water, Vegetable Oil Blend (Vegetable Oil (May contain one or more of the following: Soybean, Canola, Corn, Sunflower Oil); Olive Oil; Colorant: Beta-Carotene E160a(i)), Vegetable Oil Blend (Vegetable Oil (May contain one or more of the following: Soybean, Canola, Corn, Sunflower Oil); Olive Oil; Colorant: Beta-Carotene E160a(i)), Garlic Powder, Kosher Salt, Granulated Sugar, Yeast"
     },
     {
-      "id": "102507",
-      "name": "Maple Spice Mini Muffin",
-      "station": "Pizza",
-      "period": "Lunch",
-      "description": "Freshly baked maple-flavored muffin with cinnamon and allspice",
-      "serving": "1 muffin",
-      "nutrition": {
-        "calories": 80,
-        "total_fat": 2,
-        "saturated_fat": 1,
-        "trans_fat": 0,
-        "cholesterol": 0,
-        "sodium": 115,
-        "carbohydrate": 14,
-        "fiber": 0,
-        "total_sugars": 8,
-        "protein": 0.7,
-        "calcium": 6,
-        "iron": 0.3,
-        "potassium": 20
-      },
-      "vegan": false,
-      "vegetarian": true,
-      "contains": {
-        "soy": true,
-        "eggs": true,
-        "fish": false,
-        "milk": true,
-        "wheat": true,
-        "gluten": true,
-        "peanut": false,
-        "sesame": false,
-        "shellfish": false,
-        "tree_nuts": false
-      },
-      "ingredients": "Variety Muffin Mix (ENRICHED FLOUR BLEACHED (WHEAT FLOUR, NIACIN,  IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), SUGAR, PALM OIL, MODIFIED CORN STARCH, MODIFIED WHEY. CONTAINS  2% OR LESS OF: LEAVENING (SODIUM ACID PYROPHOSPHATE, BAKING SODA, MONOCALCIUM PHOSPHATE), DEXTROSE, MONO AND  DIGLYCERIDES, SALT, EGGS WITH SODIUM SILICOALUMINATE, XANTHAN GUM, NONFAT MILK, NATURAL FLAVOR, SOY FLOUR.), Water, Pancake Syrup  (CORN SYRUP, HIGH FRUCTOSE CORN SYRUP, WATER, CELLULOSE GUM, CARAMEL COLOR, SALT, NATURAL AND ARTIFICIAL FLAVOR, SODIUM BENZOATE AND SORBIC ACID (PRESERVATIVES), SODIUM HEXAMETAPHOSPHATE.), Cinnamon, Allspice"
-    },
-    {
       "id": "76615",
       "name": "Marinara Sauce",
       "station": "Pizza",
@@ -6202,26 +5949,26 @@
       "ingredients": "All Purpose Flour, Mozzarella Cheese, Water, Pizza Sauce, Onion, Mushrooms, Vegetable Oil Blend, Vegetable Oil Blend, Kosher Salt, Vegetable Oil Blend, Granulated Sugar, Yeast, Kosher Salt, Kosher Salt, Black Pepper, Black Pepper"
     },
     {
-      "id": "76555",
-      "name": "Pepperoni Pizza",
+      "id": "104337",
+      "name": "Sausage Pizza",
       "station": "Pizza",
       "period": "Lunch",
-      "description": "House-made pizza dough topped with crispy pepperoni slices, rich tomato sauce and mozzarella cheese",
+      "description": "Loaded with Italian sausage, topped with melted mozzarella and tomato sauce on a house-made crust",
       "serving": "1 cut",
       "nutrition": {
-        "calories": 300,
-        "total_fat": 12.5,
-        "saturated_fat": 4.5,
+        "calories": 320,
+        "total_fat": 15,
+        "saturated_fat": 5,
         "trans_fat": 0.5,
         "cholesterol": 25,
-        "sodium": 647,
-        "carbohydrate": 36,
-        "fiber": 3,
-        "total_sugars": 3,
-        "protein": 13.7,
-        "calcium": 198.5,
-        "iron": 2.3,
-        "potassium": 220
+        "sodium": 586,
+        "carbohydrate": 35,
+        "fiber": 2,
+        "total_sugars": 2,
+        "protein": 14.2,
+        "calcium": 203.2,
+        "iron": 2.2,
+        "potassium": 190
       },
       "vegan": null,
       "vegetarian": null,
@@ -6237,121 +5984,7 @@
         "shellfish": null,
         "tree_nuts": null
       },
-      "ingredients": "All Purpose Flour, Mozzarella Cheese, Water, Pizza Sauce, Deli Pepperoni, Vegetable Oil Blend, Kosher Salt, Granulated Sugar, Yeast"
-    },
-    {
-      "id": "102509",
-      "name": "Pumpkin Pie Donut Bites",
-      "station": "Pizza",
-      "period": "Lunch",
-      "description": "Pumpkin pie spiced donut holes",
-      "serving": "4 each",
-      "nutrition": {
-        "calories": 210,
-        "total_fat": 12,
-        "saturated_fat": 5.5,
-        "trans_fat": 0,
-        "cholesterol": 10,
-        "sodium": 302,
-        "carbohydrate": 23,
-        "fiber": 0,
-        "total_sugars": 9,
-        "protein": 2.2,
-        "calcium": 6.6,
-        "iron": 1.2,
-        "potassium": 40
-      },
-      "vegan": false,
-      "vegetarian": true,
-      "contains": {
-        "soy": true,
-        "eggs": true,
-        "fish": false,
-        "milk": true,
-        "wheat": true,
-        "gluten": true,
-        "peanut": false,
-        "sesame": false,
-        "shellfish": false,
-        "tree_nuts": false
-      },
-      "ingredients": "Donut Holes (ENRICHED UNBLEACHED WHEAT FLOUR (WHEAT FLOUR,NIACIN, REDUCED IRON, THIAMINE MONONITRATE, ENZYME, RIBOFLAVIN, FOLIC ACID),PALM OIL, SUGAR, WATER, SOYBEAN OIL, CONTAINS LESS THAN 2% OF THEFOLLOWING: DEFATTED SOY FLOUR, EGG YOLKS, LEAVENING (SODIUM ACIDPYROPHOSPHATE, BAKING SODA), DEXTROSE, WHEAT STARCH, SALT, SKIM MILK,MODIFIED WHEAT STARCH, POTATO FLOUR, ARTIFICIAL FLAVOR, SODIUM STEAROYLLACTYLATE.), Granulated Sugar, Pumpkin Pie Spice (Spices.)"
-    },
-    {
-      "id": "102504",
-      "name": "Whipped Butter",
-      "station": "Pizza",
-      "period": "Lunch",
-      "description": "Unsalted whipped butter",
-      "serving": "1 tablespoon",
-      "nutrition": {
-        "calories": 80,
-        "total_fat": 8.5,
-        "saturated_fat": 5.5,
-        "trans_fat": 0.5,
-        "cholesterol": 25,
-        "sodium": 0,
-        "carbohydrate": 0,
-        "fiber": 0,
-        "total_sugars": 0,
-        "protein": 0,
-        "calcium": 2.6,
-        "iron": 0,
-        "potassium": 0
-      },
-      "vegan": false,
-      "vegetarian": true,
-      "contains": {
-        "soy": false,
-        "eggs": false,
-        "fish": false,
-        "milk": true,
-        "wheat": false,
-        "gluten": false,
-        "peanut": false,
-        "sesame": false,
-        "shellfish": false,
-        "tree_nuts": false
-      },
-      "ingredients": "Unsalted Butter (Pasteurized Cream, Natural Flavoring.)"
-    },
-    {
-      "id": "102505",
-      "name": "Whipped Cream Cheese",
-      "station": "Pizza",
-      "period": "Lunch",
-      "description": "Fluffy whipped cream cheese",
-      "serving": "2 tablespoon",
-      "nutrition": {
-        "calories": 60,
-        "total_fat": 5.5,
-        "saturated_fat": 3.5,
-        "trans_fat": 0,
-        "cholesterol": 20,
-        "sodium": 106,
-        "carbohydrate": 2,
-        "fiber": 0,
-        "total_sugars": 1,
-        "protein": 1.2,
-        "calcium": 0.1,
-        "iron": 0,
-        "potassium": 0
-      },
-      "vegan": false,
-      "vegetarian": true,
-      "contains": {
-        "soy": false,
-        "eggs": false,
-        "fish": false,
-        "milk": true,
-        "wheat": false,
-        "gluten": false,
-        "peanut": false,
-        "sesame": false,
-        "shellfish": false,
-        "tree_nuts": false
-      },
-      "ingredients": "Cream Cheese (Pasteurized Milk And Cream, Whey Protein Concentrate, Modified Food Starch, Salt, Cheese Culture, Guar Gum, Lactic Acid, Carob Bean Gum, Xanthan Gum, Natamycin (a Natural Mold Inhibitor)), Water"
+      "ingredients": "All Purpose Flour, Mozzarella Cheese, Water, Tomatoes, Pork Sausage Topping, Water, Vegetable Oil Blend, Extra Virgin Olive Oil, Kosher Salt, Granulated Sugar, Yeast, Granulated Sugar, Kosher Salt, Black Pepper, Garlic Powder, Dried Oregano"
     },
     {
       "id": "76543",
@@ -6582,44 +6215,6 @@
       "ingredients": "All Purpose Flour, Mozzarella Cheese, Water, Tomatoes, Pork Sausage Topping, Water, Vegetable Oil Blend, Extra Virgin Olive Oil, Kosher Salt, Granulated Sugar, Yeast, Granulated Sugar, Kosher Salt, Black Pepper, Garlic Powder, Dried Oregano"
     },
     {
-      "id": "76599",
-      "name": "Cantaloupe",
-      "station": "Produce",
-      "period": "Breakfast",
-      "description": "Cubed fresh cantaloupe",
-      "serving": "1/2 cup",
-      "nutrition": {
-        "calories": 25,
-        "total_fat": 0,
-        "saturated_fat": 0,
-        "trans_fat": 0,
-        "cholesterol": 0,
-        "sodium": 11,
-        "carbohydrate": 6,
-        "fiber": 1,
-        "total_sugars": 6,
-        "protein": 0.6,
-        "calcium": 6.4,
-        "iron": 0.1,
-        "potassium": 190
-      },
-      "vegan": true,
-      "vegetarian": true,
-      "contains": {
-        "soy": false,
-        "eggs": false,
-        "fish": false,
-        "milk": false,
-        "wheat": false,
-        "gluten": false,
-        "peanut": false,
-        "sesame": false,
-        "shellfish": false,
-        "tree_nuts": false
-      },
-      "ingredients": "Cantaloupe"
-    },
-    {
       "id": "76583",
       "name": "Chocolate Overnight Oatmeal",
       "station": "Produce",
@@ -6694,6 +6289,44 @@
         "tree_nuts": null
       },
       "ingredients": "Cottage Cheese"
+    },
+    {
+      "id": "104343",
+      "name": "Diced Pineapple",
+      "station": "Produce",
+      "period": "Breakfast",
+      "description": "Fresh diced pineapple",
+      "serving": "1/4 cup",
+      "nutrition": {
+        "calories": 25,
+        "total_fat": 0,
+        "saturated_fat": 0,
+        "trans_fat": 0,
+        "cholesterol": 0,
+        "sodium": 0,
+        "carbohydrate": 6,
+        "fiber": 1,
+        "total_sugars": 5,
+        "protein": 0.3,
+        "calcium": 6.4,
+        "iron": 0.1,
+        "potassium": 55
+      },
+      "vegan": true,
+      "vegetarian": true,
+      "contains": {
+        "soy": false,
+        "eggs": false,
+        "fish": false,
+        "milk": false,
+        "wheat": false,
+        "gluten": false,
+        "peanut": false,
+        "sesame": false,
+        "shellfish": false,
+        "tree_nuts": false
+      },
+      "ingredients": "Pineapple"
     },
     {
       "id": "76611",
@@ -8672,44 +8305,6 @@
       "ingredients": "Tortilla (Whole Grain Corn, Water, Contains 2% Or Less Of The Following: Preservatives(propionic Acid, Sodium Hydroxide, Benzoic Acid), And Traces Of Food Grade Lime)"
     },
     {
-      "id": "76772",
-      "name": "BBQ Spiced Shredded Chicken",
-      "station": "Rotisserie/Made Without Gluten",
-      "period": "Lunch",
-      "description": "Braised chicken thigh meat simmered in BBQ spices and shredded",
-      "serving": "3 ozw",
-      "nutrition": {
-        "calories": 110,
-        "total_fat": 4.5,
-        "saturated_fat": 1,
-        "trans_fat": 0,
-        "cholesterol": 75,
-        "sodium": 406,
-        "carbohydrate": 1,
-        "fiber": 0,
-        "total_sugars": 0,
-        "protein": 16,
-        "calcium": 1.7,
-        "iron": 0.8,
-        "potassium": 5
-      },
-      "vegan": false,
-      "vegetarian": false,
-      "contains": {
-        "soy": null,
-        "eggs": null,
-        "fish": null,
-        "milk": null,
-        "wheat": null,
-        "gluten": null,
-        "peanut": null,
-        "sesame": null,
-        "shellfish": null,
-        "tree_nuts": null
-      },
-      "ingredients": "Chicken Thigh, Water, Canola Oil, Kosher Salt, Granulated Sugar, Paprika, Chili Powder, Garlic Powder, Black Pepper, Cayenne Pepper"
-    },
-    {
       "id": "76770",
       "name": "Confetti Brown Rice",
       "station": "Rotisserie/Made Without Gluten",
@@ -8746,6 +8341,44 @@
         "tree_nuts": false
       },
       "ingredients": "Water, Whole Grain Brown Rice, Onion, Green Bell Pepper, Vegetable Oil Blend (Vegetable Oil (May contain one or more of the following: Soybean, Canola, Corn, Sunflower Oil); Olive Oil; Colorant: Beta-Carotene E160a(i)), Red Bell Pepper, Vegetable Base (SAUTEED VEGETABLE PUREE MIX (CARROTS, ONIONS, CELERY), CORN STARCH, MALTODEXTRIN, VEGETABLE OIL (CORN AND/OR CANOLA OIL), HYDROLYZED CORN PROTEIN, YEAST EXTRACT, TOMATO POWDER, WATER, ONION POWDER, 2% OR LESS OF DISODIUM INOSINATE AND DISODIUM GUANYLATE, SALT, GARLIC POWDER, PAPRIKA (COLOR), NATURAL FLAVORS, LACTIC ACID, NATURAL FLAVOR, MODIFIED CORNSTARCH, CITRIC ACID.), Italian Seasoning (Spices (including Thyme and Oregano).)"
+    },
+    {
+      "id": "104341",
+      "name": "Garlic Herb Rotisserie Chicken",
+      "station": "Rotisserie/Made Without Gluten",
+      "period": "Lunch",
+      "description": "Rotisserie chicken, garlic herb seasoning blend",
+      "serving": "2 piece",
+      "nutrition": {
+        "calories": 290,
+        "total_fat": 23,
+        "saturated_fat": 6.5,
+        "trans_fat": 0,
+        "cholesterol": 95,
+        "sodium": 85,
+        "carbohydrate": 0,
+        "fiber": 0,
+        "total_sugars": 0,
+        "protein": 21.9,
+        "calcium": 0,
+        "iron": 0.7,
+        "potassium": 320
+      },
+      "vegan": false,
+      "vegetarian": false,
+      "contains": {
+        "soy": false,
+        "eggs": false,
+        "fish": false,
+        "milk": false,
+        "wheat": false,
+        "gluten": false,
+        "peanut": false,
+        "sesame": false,
+        "shellfish": false,
+        "tree_nuts": false
+      },
+      "ingredients": "Chicken, Garlic  Herb Seasoning (Garlic, Spices (including Oregano, Rosemary, Basil, And Red Pepper), Orange Peel, Onion, Paprika, And Celery.)"
     },
     {
       "id": "76771",
@@ -9204,6 +8837,44 @@
       "ingredients": "French Fried Onions (ONIONS, PALM OIL, WHEAT FLOUR, DEXTROSE & SALT.)"
     },
     {
+      "id": "104340",
+      "name": "Minestrone Soup",
+      "station": "Soup",
+      "period": "Lunch",
+      "description": "Hearty Italian vegetable soup with beans, ditalini pasta, bacon & Parmesan in vegetable broth",
+      "serving": "8 fl oz",
+      "nutrition": {
+        "calories": 140,
+        "total_fat": 4.5,
+        "saturated_fat": 1.5,
+        "trans_fat": 0,
+        "cholesterol": 5,
+        "sodium": 349,
+        "carbohydrate": 17,
+        "fiber": 3,
+        "total_sugars": 2,
+        "protein": 6.9,
+        "calcium": 97.9,
+        "iron": 1.1,
+        "potassium": 300
+      },
+      "vegan": null,
+      "vegetarian": null,
+      "contains": {
+        "soy": null,
+        "eggs": null,
+        "fish": null,
+        "milk": null,
+        "wheat": null,
+        "gluten": null,
+        "peanut": null,
+        "sesame": null,
+        "shellfish": null,
+        "tree_nuts": null
+      },
+      "ingredients": "Water, Water, Tomatoes, Great Northern Beans, Pinto Beans, Onion, Pasta, Russet Potato, Parmesan Cheese, Vegetable Base, Green Cabbage, Carrots, Celery, Bacon, Spinach, Garlic, Vegetable Oil Blend, Kosher Salt, Black Pepper, Dried Thyme Leaf"
+    },
+    {
       "id": "76769",
       "name": "Saltine Crackers",
       "station": "Soup",
@@ -9240,44 +8911,6 @@
         "tree_nuts": false
       },
       "ingredients": "Saltine Crackers  (Enriched flour (wheat flour,  niacin, reduced iron, vitamin B1 [thiamin mononitrate], vitamin B2  [riboflavin], folic acid), soybean oil (with TBHQ for freshness), salt, corn  syrup.  Contains 2% or less of baking soda, yeast, soy lecithin.)"
-    },
-    {
-      "id": "76768",
-      "name": "Tomato Basil Soup",
-      "station": "Soup",
-      "period": "Lunch",
-      "description": "Fresh pack tomatoes, tomato paste and tomato puree with sautéed garlic & onion, finished with touch of heavy cream and basil",
-      "serving": "6 fl oz",
-      "nutrition": {
-        "calories": 230,
-        "total_fat": 12,
-        "saturated_fat": 8,
-        "trans_fat": 0.5,
-        "cholesterol": 40,
-        "sodium": 389,
-        "carbohydrate": 28,
-        "fiber": 5,
-        "total_sugars": 14,
-        "protein": 5.7,
-        "calcium": 135.6,
-        "iron": 3.9,
-        "potassium": 1140
-      },
-      "vegan": false,
-      "vegetarian": true,
-      "contains": {
-        "soy": false,
-        "eggs": false,
-        "fish": false,
-        "milk": true,
-        "wheat": true,
-        "gluten": true,
-        "peanut": false,
-        "sesame": false,
-        "shellfish": false,
-        "tree_nuts": false
-      },
-      "ingredients": "Tomato Basil Soup (WATER,  DICED TOMATOES IN JUICE (TOMATOES, TOMATO JUICE, CITRIC ACID, CALCIUM  CHLORIDE), TOMATO PASTE, HEAVY CREAM (FROM MILK), CELERY, CONTAINS LESS THAN  2% OF ENRICHED FLOUR (WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE  MONONITRATE, RIBOFLAVIN, FOLIC ACID), CARROT PUREE, ONIONS, UNSALTED BUTTER  (CREAM, NATURAL FLAVORINGS), BASIL, SALT, MODIFIED FOOD STARCH, SPICES)"
     },
     {
       "id": "102511",
@@ -9582,6 +9215,44 @@
         "tree_nuts": false
       },
       "ingredients": "Turkey Bacon (Turkey, Water, Sugar, 2% or less of Salt, Canola Oil, Sun flower Oil, Natural Flavor, Sodium Phosphate, Potassium Diacetate, Potassium Acetate, Smoke Flavor, Sodium Erythorbate, Sodium Nitrite.)"
+    },
+    {
+      "id": "104338",
+      "name": "Turkey Sausage Link",
+      "station": "Traditions",
+      "period": "Breakfast",
+      "description": "Golden brown savory turkey sausage link",
+      "serving": "2 link",
+      "nutrition": {
+        "calories": 100,
+        "total_fat": 6.5,
+        "saturated_fat": 2,
+        "trans_fat": 0,
+        "cholesterol": 40,
+        "sodium": 367,
+        "carbohydrate": 1,
+        "fiber": 0,
+        "total_sugars": 0,
+        "protein": 8.8,
+        "calcium": 5.7,
+        "iron": 0.8,
+        "potassium": 125
+      },
+      "vegan": false,
+      "vegetarian": false,
+      "contains": {
+        "soy": false,
+        "eggs": false,
+        "fish": false,
+        "milk": false,
+        "wheat": false,
+        "gluten": false,
+        "peanut": false,
+        "sesame": false,
+        "shellfish": false,
+        "tree_nuts": false
+      },
+      "ingredients": "Turkey Sausage (Turkey, Mechanically Separated Turkey, Water, Seasoning (Salt, Spices, Corn Syrup Solids, Spice Extractives, BHA, BHT, Citric Acid), Natural Flavoring. In a Calcium Alginate Casing.)"
     },
     {
       "id": "76743",
