@@ -4,8 +4,8 @@
   "serviceAreaId": 125621,
   "source": "https://dining.utk.edu/vendor/rocky-top-dining-hall/",
   "date": "2026-11-23",
-  "scrapedAt": "2026-11-23T20:14:32.710Z",
-  "itemCount": 267,
+  "scrapedAt": "2026-11-24T04:50:31.739Z",
+  "itemCount": 270,
   "items": [
     {
       "id": "81076",
@@ -348,6 +348,82 @@
         "tree_nuts": false
       },
       "ingredients": "Bagel (POPPY BAGEL- ENRICHED WHEAT FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, BROWN SUGAR, POPPY SEEDS, CONTAINS 2% OR LESS OF EACH OF THE FOLLOWING: WHEAT GLUTEN, SALT, YEAST, MALTED WHEAT FLOUR, VINEGAR, CANOLA OIL, ASCORBIC ACID, ENZYMES, CALCIUM SULFATE. ONION BAGEL- ENRICHED WHEAT FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, BROWN SUGAR, MINCED ONIONS, CONTAINS LESS THAN 2% OF THE FOLLOWING: SALT, YEAST, WHEAT GLUTEN, MALTED WHEAT FLOUR, VINEGAR, CANOLA OIL, ASCORBIC ACID, ENZYMES, CALCIUM SULFATE, SESAME.PLAIN BAGEL- ENRICHED WHEAT FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, BROWN SUGAR CONTAINS 2% OR LESS OF THE FOLLOWING: SALT, YEAST, VITAL WHEAT GLUTEN, VINEGAR, CANOLA OIL, ASCORBIC ACID, ENZYMES, CALCIUM SULFATE, SESAME. CINNAMON RAISIN BAGEL- WHEAT FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, RAISINS, BROWN SUGAR, CINNAMON FLAVOR BITS (SUGAR, WHEAT FLOUR, CINNAMON AND SOYBEAN OIL), YEAST, SALT, WHEAT GLUTEN, DOUGH CONDITIONER (ENRICHED WHEAT FLOUR [WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID] WHEAT GLUTEN AND 2% OR LESS OF EACH OF THE FOLLOWING; CANOLA OIL, ASCORBIC ACID, ENZYMES, SALT), CARAMEL COLOR, CINNAMON, SUGAR CANE MOLASSES, VINEGAR, SESAME. SESAME BAGEL- ENRICHED WHEAT FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, BROWN SUGAR, SESAME SEEDS, CONTAINS 2% OF LESS OF EACH OF THE FOLLOWING: WHEAT GLUTEN, SALT, YEAST, MALTED WHEAT FLOUR, VINEGAR, CANOLA OIL, ASCORBIC ACID, ENZYMES, CALCIUM SULFATE.)"
+    },
+    {
+      "id": "104370",
+      "name": "Banana Mini Muffin",
+      "station": "Bakery",
+      "period": "Lunch",
+      "description": "Freshly baked miniature muffin with fresh banana ",
+      "serving": "1 muffin",
+      "nutrition": {
+        "calories": 70,
+        "total_fat": 1.5,
+        "saturated_fat": 1,
+        "trans_fat": 0,
+        "cholesterol": 0,
+        "sodium": 95,
+        "carbohydrate": 13,
+        "fiber": 0,
+        "total_sugars": 7,
+        "protein": 0.6,
+        "calcium": 4.8,
+        "iron": 0.3,
+        "potassium": 40
+      },
+      "vegan": false,
+      "vegetarian": true,
+      "contains": {
+        "soy": true,
+        "eggs": true,
+        "fish": false,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "peanut": false,
+        "sesame": false,
+        "shellfish": false,
+        "tree_nuts": false
+      },
+      "ingredients": "Variety Muffin Mix (ENRICHED FLOUR BLEACHED (WHEAT FLOUR, NIACIN,  IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), SUGAR, PALM OIL, MODIFIED CORN STARCH, MODIFIED WHEY. CONTAINS  2% OR LESS OF: LEAVENING (SODIUM ACID PYROPHOSPHATE, BAKING SODA, MONOCALCIUM PHOSPHATE), DEXTROSE, MONO AND  DIGLYCERIDES, SALT, EGGS WITH SODIUM SILICOALUMINATE, XANTHAN GUM, NONFAT MILK, NATURAL FLAVOR, SOY FLOUR.), Water, Banana, Granulated Sugar"
+    },
+    {
+      "id": "104371",
+      "name": "Blueberry Iced Cinnamon Roll",
+      "station": "Bakery",
+      "period": "Lunch",
+      "description": "Freshly baked cinnamon roll with cream cheese icing and blueberry topping",
+      "serving": "1 roll",
+      "nutrition": {
+        "calories": 230,
+        "total_fat": 9,
+        "saturated_fat": 4.5,
+        "trans_fat": 0,
+        "cholesterol": 5,
+        "sodium": 241,
+        "carbohydrate": 34,
+        "fiber": 1,
+        "total_sugars": 19,
+        "protein": 3.2,
+        "calcium": 3.9,
+        "iron": 1.3,
+        "potassium": 10
+      },
+      "vegan": false,
+      "vegetarian": true,
+      "contains": {
+        "soy": true,
+        "eggs": false,
+        "fish": false,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "peanut": false,
+        "sesame": false,
+        "shellfish": false,
+        "tree_nuts": false
+      },
+      "ingredients": "Cinnamon Roll (ENRICHED FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR,   NIACIN, IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, SUGAR,   PALM OIL, MARGARINE (PALM OIL, WATER, SOYBEAN OIL, SALT, MONO AND   DIGLYCERIDES, SOY LECITHIN, NATURAL FLAVOR, BETA CAROTENE COLOR, VITAMIN A   PALMITATE), SOYBEAN OIL, HIGH FRUCTOSE CORN SYRUP, YEAST, CINNAMON,   MONOGLYCERIDES, WHEAT PROTEIN ISOLATE, SODIUM CASEINATE, MODIFIED CORN   STARCH, DATEM, GLUCONO DELTA-LACTONE, BAKING SODA, SALT, SODIUM ACID   PYROPHOSPHATE, MOLASSES, NATURAL FLAVOR, ASCORBIC ACID. CONTAINS WHEAT, MILK AND SOY INGREDIENTS. ), Cream Cheese Icing (Sugar, Cream Cheese (Pasteurized Milk and Cream, Salt, Carob Bean Gum, Cheese Culture), Vegetable Shortening (Palm Oil, Canola Oil, Mono- and Diglycerides, Polysorbate 60), Dextrose. Contains 2% or less of each of the following: Cream Cheese Powder (Cream Cheese Solids [Cream, Nonfat Milk, Salt, Sodium Alginate, Lactic Acid], Corn Syrup Solids, Sodium Caseinate [Milk], Natural Flavor), Corn Starch, Soybean Oil, Salt, Natural Flavor, Benzoic Acid (Preservative), Polysorbate 60, Propyl Gallate (Antioxidant), Beta Carotene (Color).), Blueberry Pie Filling (Blueberries, High Fructose Corn Syrup, Water, Modified Food Starch. Contains less than 2% of: Citric Acid, Natural Flavor, Potassium Sorbate and Sodium Benzoate (Preservatives), Salt, Sodium Citrate, Spice.)"
     },
     {
       "id": "81239",
@@ -1222,6 +1298,44 @@
         "tree_nuts": false
       },
       "ingredients": "Biscuit (ENRICHED FLOUR BLEACHED (WHEAT FLOUR, NIACIN, FERROUS SULFATE, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, SOYBEAN OIL, HYDROGENATED SOYBEAN OIL, BUTTERMILK, SUGAR, SODIUM ALUMINUM PHOSPHATE, SALT, BAKING SODA, DATEM, CALCIUM ACID PYROPHOSPHATE, POTASSIUM BICARBONATE, WHEAT PROTEIN ISOLATE, PECTIN, CREAM, NATURAL FLAVOR.)"
+    },
+    {
+      "id": "104373",
+      "name": "Brown Rice",
+      "station": "Entree",
+      "period": "Dinner",
+      "description": "Tender cooked brown rice",
+      "serving": "1/2 cup",
+      "nutrition": {
+        "calories": 110,
+        "total_fat": 1,
+        "saturated_fat": 0,
+        "trans_fat": 0,
+        "cholesterol": 0,
+        "sodium": 0,
+        "carbohydrate": 23,
+        "fiber": 1,
+        "total_sugars": 0,
+        "protein": 2.5,
+        "calcium": 5.5,
+        "iron": 0.6,
+        "potassium": 70
+      },
+      "vegan": true,
+      "vegetarian": true,
+      "contains": {
+        "soy": false,
+        "eggs": false,
+        "fish": false,
+        "milk": false,
+        "wheat": false,
+        "gluten": false,
+        "peanut": false,
+        "sesame": false,
+        "shellfish": false,
+        "tree_nuts": false
+      },
+      "ingredients": "Water, Whole Grain Brown Rice"
     },
     {
       "id": "81309",
@@ -4568,6 +4682,44 @@
       "ingredients": "Tomatillos, Onion, Cilantro, Lime Juice, Jalapeno Pepper, Kosher Salt"
     },
     {
+      "id": "104372",
+      "name": "Baguette",
+      "station": "Pasta",
+      "period": "Dinner",
+      "description": "Freshly baked baguette",
+      "serving": "each",
+      "nutrition": {
+        "calories": 1350,
+        "total_fat": 5,
+        "saturated_fat": 1,
+        "trans_fat": 0,
+        "cholesterol": 0,
+        "sodium": 3102,
+        "carbohydrate": 276,
+        "fiber": 10,
+        "total_sugars": 3,
+        "protein": 41.9,
+        "calcium": 74.9,
+        "iron": 18.1,
+        "potassium": 480
+      },
+      "vegan": true,
+      "vegetarian": true,
+      "contains": {
+        "soy": false,
+        "eggs": false,
+        "fish": false,
+        "milk": false,
+        "wheat": true,
+        "gluten": true,
+        "peanut": false,
+        "sesame": false,
+        "shellfish": false,
+        "tree_nuts": false
+      },
+      "ingredients": "Baguette Bread (UNBLEACHED ENRICHED FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, SOUR CULTURE, CONTAINS 2% OR LESS OF: SALT, SEMOLINA, YEAST.)"
+    },
+    {
       "id": "81297",
       "name": "Caesar Salad",
       "station": "Pasta",
@@ -4642,44 +4794,6 @@
         "tree_nuts": false
       },
       "ingredients": "Water, Water, Pasta (SEMOLINA (WHEAT), DURUM WHEAT FLOUR, NIACIN (VITAMIN B3), FERROUS SULPHATE OR FERROUS LACTATE (IRON), THIAMINE MONONITRATE (VITAMIN B1), RIBOFLAVIN (VITAMIN B2), FOLIC ACID.), Alfredo Sauce (MODIFIED CORNSTARCH, MALTODEXTRIN, SOYBEAN OIL, WHEY, PALM OIL, CANOLA OIL,PARMESAN, CHEDDAR, AND ROMANO CHEESE SOLIDS (PASTEURIZED MILK, CULTURES, SALT,ENZYMES), NONFAT DRIED MILK, YEAST EXTRACT, SODIUM CASEINATE (A MILK DERIVATIVE),WHEY PROTEIN CONCENTRATE, SALT, 2% OR LESS OF CELLULOSE GEL, ENZYME MODIFIEDCHEDDAR CHEESE, ENZYME MODIFIED CREAM, SODIUM PHOSPHATE, SODIUM CITRATE,CALCIUM LACTATE, ENZYME MODIFIED MILK FAT, LACTIC ACID, XANTHAN GUM, DEXTROSE,SODIUM ALGINATE, ENZYME MODIFIED NONFAT MILK, BUTTER (CREAM, SALT), NATURALFLAVORS, ANNATTO & TURMERIC (COLOR), HYDROLYZED CASEIN, DISODIUM INOSINATE,SPICES, CALCIUM ALGINATE, DISODIUM GUANYLATE.), Parmesan Cheese (Parmesan Cheese (Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes). Anti-Caking Blend (Potato Starch, Powdered Cellulose).), Parsley"
-    },
-    {
-      "id": "81296",
-      "name": "Rocky Top House Focaccia",
-      "station": "Pasta",
-      "period": "Dinner",
-      "description": "Focaccia with rosemary and honey",
-      "serving": "1 slice",
-      "nutrition": {
-        "calories": 280,
-        "total_fat": 19.5,
-        "saturated_fat": 2.5,
-        "trans_fat": 0,
-        "cholesterol": 0,
-        "sodium": 305,
-        "carbohydrate": 23,
-        "fiber": 1,
-        "total_sugars": 0,
-        "protein": 3.7,
-        "calcium": 7.9,
-        "iron": 1.6,
-        "potassium": 40
-      },
-      "vegan": true,
-      "vegetarian": false,
-      "contains": {
-        "soy": false,
-        "eggs": false,
-        "fish": false,
-        "milk": false,
-        "wheat": true,
-        "gluten": true,
-        "peanut": false,
-        "sesame": false,
-        "shellfish": false,
-        "tree_nuts": false
-      },
-      "ingredients": "Focaccia Bread (Unbleached Enriched Flour (wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Water, Contains 2% Or Less Of: Sour Culture, Extra Virgin Olive Oil, Salt, Semolina, Yeast, Enzymes), Extra Virgin Olive Oil, Rosemary"
     },
     {
       "id": "81125",
