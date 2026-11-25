@@ -4,8 +4,8 @@
   "serviceAreaId": 116094,
   "source": "https://dining.utk.edu/vendor/stokely-dining-hall/",
   "date": "2026-11-24",
-  "scrapedAt": "2026-11-24T17:45:54.007Z",
-  "itemCount": 272,
+  "scrapedAt": "2026-11-25T02:30:36.340Z",
+  "itemCount": 274,
   "items": [
     {
       "id": "77042",
@@ -84,6 +84,44 @@
       "ingredients": "Chocolate Chip Cookie (Enriched bleached flour (bleached wheat flour, malted barley flour, niacin, iron, thiamine mononitrate, riboflavin, folic acid), Sugar, Palm oil, Margarine (palm oil, water, soybean oil, contains 2% or less of: salt, mono- and diglycerides, natural flavor [contains milk], citric acid, vitamin A palmitate added, beta carotene [color]), Semi-sweet chocolate chips (sugar, unsweetened chocolate, cocoa butter, dextrose, soy lecithin, natural flavor, milk), Chocolate flavored chips (sugar, fractionated interesterified  vegetable fat [palm kernel and/or palm oils], cocoa powder [processed with alkali], dextrose, soy lecithin, polysorbate 60, sorbitan monostearate, natural flavor, salt, vanilla extract, milk), Water, Eggs, Dextrose, Contains 2% or less of: Molasses, Pregelatinized wheat starch, Baking soda, Salt, Natural and artificial flavors.)"
     },
     {
+      "id": "104605",
+      "name": "Chocolate Chip Crumb Cupcake",
+      "station": "Bakery",
+      "period": "Lunch",
+      "description": "Tender coffee cake with semisweet chocolate chips, crowned with a buttery streusel crumb topping.",
+      "serving": "each",
+      "nutrition": {
+        "calories": 190,
+        "total_fat": 6.5,
+        "saturated_fat": 3.5,
+        "trans_fat": 0,
+        "cholesterol": 5,
+        "sodium": 184,
+        "carbohydrate": 33,
+        "fiber": 1,
+        "total_sugars": 20,
+        "protein": 1.8,
+        "calcium": 1.8,
+        "iron": 1.2,
+        "potassium": 15
+      },
+      "vegan": null,
+      "vegetarian": null,
+      "contains": {
+        "soy": null,
+        "eggs": null,
+        "fish": null,
+        "milk": null,
+        "wheat": null,
+        "gluten": null,
+        "peanut": null,
+        "sesame": null,
+        "shellfish": null,
+        "tree_nuts": null
+      },
+      "ingredients": "Mix, Water, Topping, Chocolate Chips, Powdered Sugar"
+    },
+    {
       "id": "77047",
       "name": "Pineapple Upside-Down Parfait",
       "station": "Bakery",
@@ -120,6 +158,44 @@
         "tree_nuts": null
       },
       "ingredients": "Vanilla Pudding, Pineapple in Juice, Caramel Topping, Yellow Cake, Water, Whipped Topping"
+    },
+    {
+      "id": "104604",
+      "name": "Raspberry Sour Cream Muffin",
+      "station": "Bakery",
+      "period": "Lunch",
+      "description": "Freshly baked sour cream muffin with raspberries",
+      "serving": "1 muffin",
+      "nutrition": {
+        "calories": 270,
+        "total_fat": 8.5,
+        "saturated_fat": 4.5,
+        "trans_fat": 0,
+        "cholesterol": 10,
+        "sodium": 377,
+        "carbohydrate": 44,
+        "fiber": 1,
+        "total_sugars": 24,
+        "protein": 2.7,
+        "calcium": 36,
+        "iron": 1.2,
+        "potassium": 110
+      },
+      "vegan": false,
+      "vegetarian": true,
+      "contains": {
+        "soy": true,
+        "eggs": true,
+        "fish": false,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "peanut": false,
+        "sesame": false,
+        "shellfish": false,
+        "tree_nuts": false
+      },
+      "ingredients": "Variety Muffin Mix (ENRICHED FLOUR BLEACHED (WHEAT FLOUR, NIACIN,  IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), SUGAR, PALM OIL, MODIFIED CORN STARCH, MODIFIED WHEY. CONTAINS  2% OR LESS OF: LEAVENING (SODIUM ACID PYROPHOSPHATE, BAKING SODA, MONOCALCIUM PHOSPHATE), DEXTROSE, MONO AND  DIGLYCERIDES, SALT, EGGS WITH SODIUM SILICOALUMINATE, XANTHAN GUM, NONFAT MILK, NATURAL FLAVOR, SOY FLOUR.), Water, Sour Cream (Cultured Cream, Enzyme.), Raspberries"
     },
     {
       "id": "76851",

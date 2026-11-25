@@ -4,8 +4,8 @@
   "serviceAreaId": 125621,
   "source": "https://dining.utk.edu/vendor/rocky-top-dining-hall/",
   "date": "2026-11-24",
-  "scrapedAt": "2026-11-24T17:45:53.833Z",
-  "itemCount": 264,
+  "scrapedAt": "2026-11-25T02:30:36.132Z",
+  "itemCount": 267,
   "items": [
     {
       "id": "81368",
@@ -1108,6 +1108,44 @@
         "tree_nuts": false
       },
       "ingredients": "Green Cabbage, Daikon Radish, Carrots, White Vinegar, Green Onion, Gochujang Paste (TAPIOCA SYRUP, WATER, BROWN RICE, RED PEPPER POWDER, SALT, ALCOHOL (TO PRESERVE FRESHNESS), SOYBEAN, GARLIC, ONION), Fish Sauce (ANCHOVY (FISH), SEA SALT, WATER & SUGAR.), Garlic, Ginger Root"
+    },
+    {
+      "id": "104608",
+      "name": "Korean BBQ Chicken",
+      "station": "Entree",
+      "period": "Lunch",
+      "description": "Sweet soy marinated chicken thighs brushed with Korean BBQ sauce",
+      "serving": "3 ozw",
+      "nutrition": {
+        "calories": 150,
+        "total_fat": 4,
+        "saturated_fat": 1,
+        "trans_fat": 0,
+        "cholesterol": 75,
+        "sodium": 470,
+        "carbohydrate": 10,
+        "fiber": 0,
+        "total_sugars": 8,
+        "protein": 16.7,
+        "calcium": 14,
+        "iron": 0.8,
+        "potassium": 260
+      },
+      "vegan": null,
+      "vegetarian": null,
+      "contains": {
+        "soy": null,
+        "eggs": null,
+        "fish": null,
+        "milk": null,
+        "wheat": null,
+        "gluten": null,
+        "peanut": null,
+        "sesame": null,
+        "shellfish": null,
+        "tree_nuts": null
+      },
+      "ingredients": "Chicken Thigh, Ketchup, Korean Hot Taco Sauce, Soy Sauce, Orange Juice, Brown Sugar, Honey, Seasoned Rice Vinegar, Ginger Root, Green Onion, Garlic, Ginger Root, Sesame Seeds, Black Pepper"
     },
     {
       "id": "81540",
@@ -4454,6 +4492,44 @@
       "ingredients": "Lettuce, Creamy Caesar Dressing (SOYBEAN OIL, DISTILLED VINEGAR, WATER, APPLE CIDER VINEGAR, ROMANO CHEESE (PASTEURIZED PART-SKIM MILK, CHEESE CULTURES, SALT, ENZYMES), SALT, CONTAINS LESS THAN 2% OF GARLIC,* SUGAR, TABASCO ® BRAND PEPPER SAUCE (DISTILLED VINEGAR, RED PEPPER, SALT), SPICE, MUSTARD FLOUR, ANCHOVIES, MALTODEXTRIN, CARRAGEENAN, XANTHAN GUM, BETA CAROTENE (COLOR). *DRIED.), Croutons (ENRICHED FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), CANOLA AND/OR SUNFLOWER OIL (WITH ROSEMARY EXTRACT AND ASCORBIC ACID [TO PRESERVE FRESHNESS]), WHEY, SALT, SUGAR, YEAST, 2% OR LESS OF SPICES, DEHYDRATED PARSLEY, ONION POWDER, PAPRIKA (COLOR), TURMERIC (COLOR), EXTRACTIVE OF PAPRIKA (COLOR), SPICE EXTRACTIVE, ENZYMES.), Parmesan Cheese (Parmesan Cheese (Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes). Anti-Caking Blend (Potato Starch, Powdered Cellulose).)"
     },
     {
+      "id": "104610",
+      "name": "Cheesy Bacon Cavatappi",
+      "station": "Pasta",
+      "period": "Dinner",
+      "description": "Cavatappi pasta with bacon, green peas, zuchini and Parmesan in cheddar cheese sauce",
+      "serving": "1 cup",
+      "nutrition": {
+        "calories": 360,
+        "total_fat": 12.5,
+        "saturated_fat": 4,
+        "trans_fat": 0,
+        "cholesterol": 20,
+        "sodium": 953,
+        "carbohydrate": 48,
+        "fiber": 5,
+        "total_sugars": 8,
+        "protein": 15.6,
+        "calcium": 155.9,
+        "iron": 2.3,
+        "potassium": 450
+      },
+      "vegan": false,
+      "vegetarian": false,
+      "contains": {
+        "soy": false,
+        "eggs": false,
+        "fish": false,
+        "milk": true,
+        "wheat": true,
+        "gluten": true,
+        "peanut": false,
+        "sesame": false,
+        "shellfish": false,
+        "tree_nuts": false
+      },
+      "ingredients": "Water, Water, Squash Zucchini, Green peas, Pasta (SEMOLINA (WHEAT), DURUM WHEAT FLOUR, NIACIN (VITAMIN B3), FERROUS SULPHATE OR FERROUS LACTATE (IRON), THIAMINE MONONITRATE (VITAMIN B1), RIBOFLAVIN (VITAMIN B2), FOLIC ACID.), Cheese Sauce (MALTODEXTRIN, TAPIOCA STARCH, WHEY*, SALT, SOYBEAN OIL, MODIFIED CORNSTARCH, CANOLA OIL, 2% OR LESS OF BUTTERMILK*, SUGAR, YEAST EXTRACT, EXTRACTS OF ANNATTO & TURMERIC (COLOR), DRIED CHEDDAR CHEESE (CULTURED MILK, SALT, ENZYMES)*, NATURAL FLAVORS, SODIUM CASEINATE (A MILK DERIVATIVE), BUTTERMILK POWDER*, SPICES, CITRIC ACID, DISODIUM INOSINATE, DISODIUM GUANYLATE, PAPRIKA (COLOR).), Bacon  Bits (Pork Cured With: Water, Salt, Sugar, Smoke Flavoring, Sodium Phosphates, Sodium Erythorbate, Sodium Nitrite.), Parmesan Cheese (Parmesan Cheese (Pasteurized Part-Skim Milk, Cheese Culture, Salt, Enzymes). Anti-Caking Blend (Potato Starch, Powdered Cellulose).), Vegetable Oil Blend (Vegetable Oil (May contain one or more of the following: Soybean, Canola, Corn, Sunflower Oil); Olive Oil; Colorant: Beta-Carotene E160a(i)), Garlic"
+    },
+    {
       "id": "81572",
       "name": "Garlic Toast",
       "station": "Pasta",
@@ -4490,44 +4566,6 @@
         "tree_nuts": false
       },
       "ingredients": "Baguette Bread (UNBLEACHED ENRICHED FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, SOUR CULTURE, CONTAINS 2% OR LESS OF: SALT, SEMOLINA, YEAST.), Vegetable Oil Blend (Vegetable Oil (May contain one or more of the following: Soybean, Canola, Corn, Sunflower Oil); Olive Oil; Colorant: Beta-Carotene E160a(i)), Garlic, Dried Oregano, Kosher Salt, Black Pepper"
-    },
-    {
-      "id": "104234",
-      "name": "Rotini with Marinara Sauce",
-      "station": "Pasta",
-      "period": "Dinner",
-      "description": "Spiral pasta tossed with marinara sauce, Asiago and fresh basil",
-      "serving": "1/2 cup",
-      "nutrition": {
-        "calories": 130,
-        "total_fat": 1.5,
-        "saturated_fat": 0.5,
-        "trans_fat": 0,
-        "cholesterol": 0,
-        "sodium": 87,
-        "carbohydrate": 26,
-        "fiber": 2,
-        "total_sugars": 3,
-        "protein": 5.1,
-        "calcium": 37.8,
-        "iron": 1.4,
-        "potassium": 200
-      },
-      "vegan": false,
-      "vegetarian": true,
-      "contains": {
-        "soy": false,
-        "eggs": false,
-        "fish": false,
-        "milk": true,
-        "wheat": true,
-        "gluten": true,
-        "peanut": false,
-        "sesame": false,
-        "shellfish": false,
-        "tree_nuts": false
-      },
-      "ingredients": "Water, Marinara Sauce (Tomato Concentrate (water, tomato paste), Onion, Sugar, Garlic, Salt, Carrot Puree, Spices, Citric Acid, Natural Flavorings.), Pasta (SEMOLINA (WHEAT), NIACIN, FERROUS SULFATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.), Asiago Cheese (Asiago Cheese (Cultured Pasteurized Milk, Salt, Enzymes), Anti-Caking Blend (Potato Starch, Powdered Cellulose).), Basil"
     },
     {
       "id": "81546",
@@ -5934,6 +5972,44 @@
         "tree_nuts": false
       },
       "ingredients": "Onion"
+    },
+    {
+      "id": "104606",
+      "name": "Spring Salad Mix",
+      "station": "Produce Market",
+      "period": "Lunch",
+      "description": "Fresh spring lettuce mix",
+      "serving": "1 cup",
+      "nutrition": {
+        "calories": 0,
+        "total_fat": 0,
+        "saturated_fat": 0,
+        "trans_fat": 0,
+        "cholesterol": 0,
+        "sodium": 25,
+        "carbohydrate": 1,
+        "fiber": 0,
+        "total_sugars": 0,
+        "protein": 0.3,
+        "calcium": 18.4,
+        "iron": 0.3,
+        "potassium": 35
+      },
+      "vegan": true,
+      "vegetarian": true,
+      "contains": {
+        "soy": false,
+        "eggs": false,
+        "fish": false,
+        "milk": false,
+        "wheat": false,
+        "gluten": false,
+        "peanut": false,
+        "sesame": false,
+        "shellfish": false,
+        "tree_nuts": false
+      },
+      "ingredients": "Lettuce Blend"
     },
     {
       "id": "81491",
@@ -7494,44 +7570,6 @@
       "ingredients": "Lettuce"
     },
     {
-      "id": "81549",
-      "name": "Mango Chipotle Salsa",
-      "station": "Tex Mex",
-      "period": "Lunch",
-      "description": "Mangos, jalapenos & peppers mixed with chipotle, lime & cilantro",
-      "serving": "1 fl oz",
-      "nutrition": {
-        "calories": 20,
-        "total_fat": 0,
-        "saturated_fat": 0,
-        "trans_fat": 0,
-        "cholesterol": 0,
-        "sodium": 27,
-        "carbohydrate": 4,
-        "fiber": 0,
-        "total_sugars": 4,
-        "protein": 0.2,
-        "calcium": 3,
-        "iron": 0.1,
-        "potassium": 45
-      },
-      "vegan": false,
-      "vegetarian": true,
-      "contains": {
-        "soy": false,
-        "eggs": false,
-        "fish": false,
-        "milk": false,
-        "wheat": false,
-        "gluten": false,
-        "peanut": false,
-        "sesame": false,
-        "shellfish": false,
-        "tree_nuts": false
-      },
-      "ingredients": "Mangos, Red Bell Pepper, Honey, Jalapeno Pepper, Orange Juice, Lime Juice, Garlic, Chipotle Peppers in Sauce (WATER, TOMATO PASTE, DRIED CHIPOTLE PEPPERS, DISTILLED VINEGAR, CORN OIL, CONTAINS 2% OR LESS OF IODIZED SALT (CONTAINS POTASSIUM IODATE), CORN STARCH, ONION POWDER, GARLIC POWDER, SPICES.), Kosher Salt, Cilantro"
-    },
-    {
       "id": "81554",
       "name": "Papas Rancheras",
       "station": "Tex Mex",
@@ -7568,6 +7606,44 @@
         "tree_nuts": false
       },
       "ingredients": "Potatoes, Tomato , Medium salsa (Tomatoes (Tomatoes, Tomato Juice, Citric Acid [To Acidify], Calcium Chloride [Firming]), Tomato Puree (Tomato Paste, Water), Onions, Water, Green Chile Peppers, Jalapeño Peppers, Contains 2% or less of Iodized Salt (Contains Potassium Iodate), Distilled Vinegar, Garlic Powder, Xanthan Gum, Spice, Paprika, Calcium Chloride (Firming), Citric Acid (To Acidify)), Green Onion, Canola Oil, Onion, Chipotle Peppers in Sauce (WATER, TOMATO PASTE, DRIED CHIPOTLE PEPPERS, DISTILLED VINEGAR, CORN OIL, CONTAINS 2% OR LESS OF IODIZED SALT (CONTAINS POTASSIUM IODATE), CORN STARCH, ONION POWDER, GARLIC POWDER, SPICES.), Jalapeno Pepper, Lime Juice, Cilantro, Kosher Salt, Canola Oil, Garlic, Montreal Steak Seasoning (COARSE SALT, SPICES (INCLUDING BLACK PEPPER AND RED PEPPER), GARLIC, ONION, SUNFLOWER OIL, NATURAL FLAVOR AND EXTRACTIVES OF PAPRIKA.)"
+    },
+    {
+      "id": "104607",
+      "name": "Pico de Gallo",
+      "station": "Tex Mex",
+      "period": "Lunch",
+      "description": "Fresh salsa of chopped plum tomatoes, onions, jalapeno peppers with lime juice, cilantro and garlic",
+      "serving": "2 tablespoon",
+      "nutrition": {
+        "calories": 5,
+        "total_fat": 0,
+        "saturated_fat": 0,
+        "trans_fat": 0,
+        "cholesterol": 0,
+        "sodium": 53,
+        "carbohydrate": 1,
+        "fiber": 0,
+        "total_sugars": 1,
+        "protein": 0.3,
+        "calcium": 3.6,
+        "iron": 0.1,
+        "potassium": 65
+      },
+      "vegan": true,
+      "vegetarian": true,
+      "contains": {
+        "soy": false,
+        "eggs": false,
+        "fish": false,
+        "milk": false,
+        "wheat": false,
+        "gluten": false,
+        "peanut": false,
+        "sesame": false,
+        "shellfish": false,
+        "tree_nuts": false
+      },
+      "ingredients": "Tomato, Onion, Jalapeno Pepper, Lime Juice, Garlic, Kosher Salt, Cilantro"
     },
     {
       "id": "81551",
@@ -8024,6 +8100,44 @@
         "tree_nuts": false
       },
       "ingredients": "Onion, Red Bell Pepper, Green Bell Pepper, Canola Oil, Kosher Salt"
+    },
+    {
+      "id": "104609",
+      "name": "Taco Beef",
+      "station": "Tex Mex",
+      "period": "Dinner",
+      "description": "Spicy taco-seasoned ground beef",
+      "serving": "1/2 ozw",
+      "nutrition": {
+        "calories": 280,
+        "total_fat": 21.5,
+        "saturated_fat": 8,
+        "trans_fat": 1.5,
+        "cholesterol": 75,
+        "sodium": 681,
+        "carbohydrate": 4,
+        "fiber": 0,
+        "total_sugars": 2,
+        "protein": 18.4,
+        "calcium": 27.8,
+        "iron": 2.4,
+        "potassium": 310
+      },
+      "vegan": false,
+      "vegetarian": false,
+      "contains": {
+        "soy": false,
+        "eggs": false,
+        "fish": false,
+        "milk": false,
+        "wheat": false,
+        "gluten": false,
+        "peanut": false,
+        "sesame": false,
+        "shellfish": false,
+        "tree_nuts": false
+      },
+      "ingredients": "Ground Beef, Water, Taco Seasoning (DEXTROSE, SALT, CORN FLOUR, CHILI PEPPER, CUMIN, ONION POWDER, GARLIC POWDER, OREGANO, CITRIC ACID, SILICON DIOXIDE (AS ANTICAKING AGENT) & EXTRACTIVES OF PAPRIKA.)"
     },
     {
       "id": "81401",
